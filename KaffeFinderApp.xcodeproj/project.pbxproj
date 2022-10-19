@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F71CC4BA290078D200755BA2 /* KaffeFinderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4B9290078D200755BA2 /* KaffeFinderAppApp.swift */; };
+		F71CC4BC290078D200755BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4BB290078D200755BA2 /* ContentView.swift */; };
+		F71CC4BE290078D400755BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71CC4BD290078D400755BA2 /* Assets.xcassets */; };
+		F71CC4C1290078D400755BA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71CC4C0290078D400755BA2 /* Preview Assets.xcassets */; };
+		F71CC4C3290078D400755BA2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4C2290078D400755BA2 /* Persistence.swift */; };
+		F71CC4C6290078D400755BA2 /* KaffeFinderApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4C4290078D400755BA2 /* KaffeFinderApp.xcdatamodeld */; };
+		F71CC4D1290078D500755BA2 /* KaffeFinderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4D0290078D500755BA2 /* KaffeFinderAppTests.swift */; };
+		F71CC4DB290078D500755BA2 /* KaffeFinderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4DA290078D500755BA2 /* KaffeFinderAppUITests.swift */; };
+		F71CC4DD290078D500755BA2 /* KaffeFinderAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4DC290078D500755BA2 /* KaffeFinderAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F71CC4CD290078D500755BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71CC4AE290078D200755BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71CC4B5290078D200755BA2;
+			remoteInfo = KaffeFinderApp;
+		};
+		F71CC4D7290078D500755BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71CC4AE290078D200755BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71CC4B5290078D200755BA2;
+			remoteInfo = KaffeFinderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F71CC4B6290078D200755BA2 /* KaffeFinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaffeFinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71CC4B9290078D200755BA2 /* KaffeFinderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaffeFinderAppApp.swift; sourceTree = "<group>"; };
+		F71CC4BB290078D200755BA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F71CC4BD290078D400755BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F71CC4C0290078D400755BA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F71CC4C2290078D400755BA2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F71CC4C5290078D400755BA2 /* KaffeFinderApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KaffeFinderApp.xcdatamodel; sourceTree = "<group>"; };
+		F71CC4C7290078D400755BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71CC4CC290078D500755BA2 /* KaffeFinderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaffeFinderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71CC4D0290078D500755BA2 /* KaffeFinderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaffeFinderAppTests.swift; sourceTree = "<group>"; };
+		F71CC4D6290078D500755BA2 /* KaffeFinderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaffeFinderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71CC4DA290078D500755BA2 /* KaffeFinderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaffeFinderAppUITests.swift; sourceTree = "<group>"; };
+		F71CC4DC290078D500755BA2 /* KaffeFinderAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaffeFinderAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F71CC4B3290078D200755BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71CC4C9290078D500755BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71CC4D3290078D500755BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F71CC4AD290078D200755BA2 = {
+			isa = PBXGroup;
+			children = (
+				F71CC4B8290078D200755BA2 /* KaffeFinderApp */,
+				F71CC4CF290078D500755BA2 /* KaffeFinderAppTests */,
+				F71CC4D9290078D500755BA2 /* KaffeFinderAppUITests */,
+				F71CC4B7290078D200755BA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F71CC4B7290078D200755BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71CC4B6290078D200755BA2 /* KaffeFinderApp.app */,
+				F71CC4CC290078D500755BA2 /* KaffeFinderAppTests.xctest */,
+				F71CC4D6290078D500755BA2 /* KaffeFinderAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F71CC4B8290078D200755BA2 /* KaffeFinderApp */ = {
+			isa = PBXGroup;
+			children = (
+				F71CC4B9290078D200755BA2 /* KaffeFinderAppApp.swift */,
+				F71CC4BB290078D200755BA2 /* ContentView.swift */,
+				F71CC4BD290078D400755BA2 /* Assets.xcassets */,
+				F71CC4C2290078D400755BA2 /* Persistence.swift */,
+				F71CC4C7290078D400755BA2 /* Info.plist */,
+				F71CC4C4290078D400755BA2 /* KaffeFinderApp.xcdatamodeld */,
+				F71CC4BF290078D400755BA2 /* Preview Content */,
+			);
+			path = KaffeFinderApp;
+			sourceTree = "<group>";
+		};
+		F71CC4BF290078D400755BA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F71CC4C0290078D400755BA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F71CC4CF290078D500755BA2 /* KaffeFinderAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F71CC4D0290078D500755BA2 /* KaffeFinderAppTests.swift */,
+			);
+			path = KaffeFinderAppTests;
+			sourceTree = "<group>";
+		};
+		F71CC4D9290078D500755BA2 /* KaffeFinderAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F71CC4DA290078D500755BA2 /* KaffeFinderAppUITests.swift */,
+				F71CC4DC290078D500755BA2 /* KaffeFinderAppUITestsLaunchTests.swift */,
+			);
+			path = KaffeFinderAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F71CC4B5290078D200755BA2 /* KaffeFinderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71CC4E0290078D500755BA2 /* Build configuration list for PBXNativeTarget "KaffeFinderApp" */;
+			buildPhases = (
+				F71CC4B2290078D200755BA2 /* Sources */,
+				F71CC4B3290078D200755BA2 /* Frameworks */,
+				F71CC4B4290078D200755BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaffeFinderApp;
+			productName = KaffeFinderApp;
+			productReference = F71CC4B6290078D200755BA2 /* KaffeFinderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F71CC4CB290078D500755BA2 /* KaffeFinderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71CC4E3290078D500755BA2 /* Build configuration list for PBXNativeTarget "KaffeFinderAppTests" */;
+			buildPhases = (
+				F71CC4C8290078D500755BA2 /* Sources */,
+				F71CC4C9290078D500755BA2 /* Frameworks */,
+				F71CC4CA290078D500755BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F71CC4CE290078D500755BA2 /* PBXTargetDependency */,
+			);
+			name = KaffeFinderAppTests;
+			productName = KaffeFinderAppTests;
+			productReference = F71CC4CC290078D500755BA2 /* KaffeFinderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F71CC4D5290078D500755BA2 /* KaffeFinderAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71CC4E6290078D500755BA2 /* Build configuration list for PBXNativeTarget "KaffeFinderAppUITests" */;
+			buildPhases = (
+				F71CC4D2290078D500755BA2 /* Sources */,
+				F71CC4D3290078D500755BA2 /* Frameworks */,
+				F71CC4D4290078D500755BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F71CC4D8290078D500755BA2 /* PBXTargetDependency */,
+			);
+			name = KaffeFinderAppUITests;
+			productName = KaffeFinderAppUITests;
+			productReference = F71CC4D6290078D500755BA2 /* KaffeFinderAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F71CC4AE290078D200755BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F71CC4B5290078D200755BA2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F71CC4CB290078D500755BA2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F71CC4B5290078D200755BA2;
+					};
+					F71CC4D5290078D500755BA2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F71CC4B5290078D200755BA2;
+					};
+				};
+			};
+			buildConfigurationList = F71CC4B1290078D200755BA2 /* Build configuration list for PBXProject "KaffeFinderApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F71CC4AD290078D200755BA2;
+			productRefGroup = F71CC4B7290078D200755BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F71CC4B5290078D200755BA2 /* KaffeFinderApp */,
+				F71CC4CB290078D500755BA2 /* KaffeFinderAppTests */,
+				F71CC4D5290078D500755BA2 /* KaffeFinderAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F71CC4B4290078D200755BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71CC4C1290078D400755BA2 /* Preview Assets.xcassets in Resources */,
+				F71CC4BE290078D400755BA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71CC4CA290078D500755BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71CC4D4290078D500755BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F71CC4B2290078D200755BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71CC4C3290078D400755BA2 /* Persistence.swift in Sources */,
+				F71CC4C6290078D400755BA2 /* KaffeFinderApp.xcdatamodeld in Sources */,
+				F71CC4BC290078D200755BA2 /* ContentView.swift in Sources */,
+				F71CC4BA290078D200755BA2 /* KaffeFinderAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71CC4C8290078D500755BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71CC4D1290078D500755BA2 /* KaffeFinderAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71CC4D2290078D500755BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71CC4DD290078D500755BA2 /* KaffeFinderAppUITestsLaunchTests.swift in Sources */,
+				F71CC4DB290078D500755BA2 /* KaffeFinderAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F71CC4CE290078D500755BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71CC4B5290078D200755BA2 /* KaffeFinderApp */;
+			targetProxy = F71CC4CD290078D500755BA2 /* PBXContainerItemProxy */;
+		};
+		F71CC4D8290078D500755BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71CC4B5290078D200755BA2 /* KaffeFinderApp */;
+			targetProxy = F71CC4D7290078D500755BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F71CC4DE290078D500755BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F71CC4DF290078D500755BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F71CC4E1290078D500755BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KaffeFinderApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SNXVLJS2UW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kleistit.KaffeFinderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F71CC4E2290078D500755BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KaffeFinderApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SNXVLJS2UW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kleistit.KaffeFinderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F71CC4E4290078D500755BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNXVLJS2UW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kleistit.KaffeFinderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaffeFinderApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KaffeFinderApp";
+			};
+			name = Debug;
+		};
+		F71CC4E5290078D500755BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNXVLJS2UW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kleistit.KaffeFinderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaffeFinderApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KaffeFinderApp";
+			};
+			name = Release;
+		};
+		F71CC4E7290078D500755BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNXVLJS2UW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kleistit.KaffeFinderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaffeFinderApp;
+			};
+			name = Debug;
+		};
+		F71CC4E8290078D500755BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNXVLJS2UW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kleistit.KaffeFinderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaffeFinderApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F71CC4B1290078D200755BA2 /* Build configuration list for PBXProject "KaffeFinderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CC4DE290078D500755BA2 /* Debug */,
+				F71CC4DF290078D500755BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71CC4E0290078D500755BA2 /* Build configuration list for PBXNativeTarget "KaffeFinderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CC4E1290078D500755BA2 /* Debug */,
+				F71CC4E2290078D500755BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71CC4E3290078D500755BA2 /* Build configuration list for PBXNativeTarget "KaffeFinderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CC4E4290078D500755BA2 /* Debug */,
+				F71CC4E5290078D500755BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71CC4E6290078D500755BA2 /* Build configuration list for PBXNativeTarget "KaffeFinderAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CC4E7290078D500755BA2 /* Debug */,
+				F71CC4E8290078D500755BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F71CC4C4290078D400755BA2 /* KaffeFinderApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F71CC4C5290078D400755BA2 /* KaffeFinderApp.xcdatamodel */,
+			);
+			currentVersion = F71CC4C5290078D400755BA2 /* KaffeFinderApp.xcdatamodel */;
+			path = KaffeFinderApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F71CC4AE290078D200755BA2 /* Project object */;
+}
