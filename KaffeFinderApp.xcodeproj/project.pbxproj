@@ -7,66 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F719F8A929210AC900A6DA3F /* AddressDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F719F8A829210AC900A6DA3F /* AddressDetailsView.swift */; };
 		F71CC4BA290078D200755BA2 /* KaffeFinderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4B9290078D200755BA2 /* KaffeFinderAppApp.swift */; };
-		F71CC4BC290078D200755BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4BB290078D200755BA2 /* ContentView.swift */; };
 		F71CC4BE290078D400755BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71CC4BD290078D400755BA2 /* Assets.xcassets */; };
 		F71CC4C1290078D400755BA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71CC4C0290078D400755BA2 /* Preview Assets.xcassets */; };
 		F71CC4C3290078D400755BA2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4C2290078D400755BA2 /* Persistence.swift */; };
 		F71CC4C6290078D400755BA2 /* KaffeFinderApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4C4290078D400755BA2 /* KaffeFinderApp.xcdatamodeld */; };
-		F71CC4D1290078D500755BA2 /* KaffeFinderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4D0290078D500755BA2 /* KaffeFinderAppTests.swift */; };
-		F71CC4DB290078D500755BA2 /* KaffeFinderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4DA290078D500755BA2 /* KaffeFinderAppUITests.swift */; };
-		F71CC4DD290078D500755BA2 /* KaffeFinderAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4DC290078D500755BA2 /* KaffeFinderAppUITestsLaunchTests.swift */; };
+		F71CC4F4290079A200755BA2 /* SalePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4EB290079A200755BA2 /* SalePlace.swift */; };
+		F71CC4F7290079A200755BA2 /* Addresse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4EC290079A200755BA2 /* Addresse.swift */; };
+		F71CC4FA290079A200755BA2 /* SalePlaceGroocery.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4ED290079A200755BA2 /* SalePlaceGroocery.swift */; };
+		F71CC4FD290079A200755BA2 /* AddressSalePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4EE290079A200755BA2 /* AddressSalePlace.swift */; };
+		F71CC500290079A200755BA2 /* Posiition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4EF290079A200755BA2 /* Posiition.swift */; };
+		F71CC503290079A200755BA2 /* ClickDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4F0290079A200755BA2 /* ClickDetail.swift */; };
+		F71CC506290079A200755BA2 /* Groocery.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4F1290079A200755BA2 /* Groocery.swift */; };
+		F71CC509290079A200755BA2 /* UserAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4F2290079A200755BA2 /* UserAddress.swift */; };
+		F71CC50C290079A200755BA2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC4F3290079A200755BA2 /* User.swift */; };
+		F71CC51629007A5900755BA2 /* TimerUpdateMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC50F29007A5900755BA2 /* TimerUpdateMap.swift */; };
+		F71CC51929007A5900755BA2 /* NetWorkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51029007A5900755BA2 /* NetWorkService.swift */; };
+		F71CC51C29007A5900755BA2 /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51129007A5900755BA2 /* ZoomableScrollView.swift */; };
+		F71CC51F29007A5900755BA2 /* IObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51229007A5900755BA2 /* IObserver.swift */; };
+		F71CC52229007A5900755BA2 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51329007A5900755BA2 /* Subject.swift */; };
+		F71CC52529007A5900755BA2 /* LocationServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51429007A5900755BA2 /* LocationServiceManager.swift */; };
+		F71CC52829007A5900755BA2 /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51529007A5900755BA2 /* LocalStorageService.swift */; };
+		F71CC56529007C2E00755BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC56429007C2E00755BA2 /* ContentView.swift */; };
+		F71CC57A2900813000755BA2 /* GrooceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC56C2900812F00755BA2 /* GrooceryView.swift */; };
+		F71CC57B2900813000755BA2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC56D2900812F00755BA2 /* LoginView.swift */; };
+		F71CC57C2900813000755BA2 /* SalePlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC56E2900812F00755BA2 /* SalePlaceView.swift */; };
+		F71CC57D2900813000755BA2 /* ClickDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC56F2900812F00755BA2 /* ClickDetailView.swift */; };
+		F71CC57E2900813000755BA2 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5702900812F00755BA2 /* CameraPicker.swift */; };
+		F71CC57F2900813000755BA2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5712900812F00755BA2 /* ViewModel.swift */; };
+		F71CC5802900813000755BA2 /* SalePlacDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5722900812F00755BA2 /* SalePlacDetailsView.swift */; };
+		F71CC5812900813000755BA2 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5732900812F00755BA2 /* AddressView.swift */; };
+		F71CC5822900813000755BA2 /* AddAddresse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5742900812F00755BA2 /* AddAddresse.swift */; };
+		F71CC5832900813000755BA2 /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5752900812F00755BA2 /* PlaceListView.swift */; };
+		F71CC5842900813000755BA2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5762900812F00755BA2 /* ImagePicker.swift */; };
+		F71CC5852900813000755BA2 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5772900812F00755BA2 /* UserView.swift */; };
+		F71CC5862900813000755BA2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5782900812F00755BA2 /* MapView.swift */; };
+		F71CC5872900813000755BA2 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5792900812F00755BA2 /* UserDetailsView.swift */; };
+		F737C9D3290C6F4A002E02A7 /* GrooceryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737C9D2290C6F4A002E02A7 /* GrooceryListView.swift */; };
+		F7497E07290869A400C0506E /* LoginObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7497E06290869A400C0506E /* LoginObservable.swift */; };
+		F795A5152928C3340008F3F6 /* AddGrooceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795A5142928C3340008F3F6 /* AddGrooceryView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F71CC4CD290078D500755BA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F71CC4AE290078D200755BA2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F71CC4B5290078D200755BA2;
-			remoteInfo = KaffeFinderApp;
-		};
-		F71CC4D7290078D500755BA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F71CC4AE290078D200755BA2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F71CC4B5290078D200755BA2;
-			remoteInfo = KaffeFinderApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F719F8A829210AC900A6DA3F /* AddressDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailsView.swift; sourceTree = "<group>"; };
 		F71CC4B6290078D200755BA2 /* KaffeFinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaffeFinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71CC4B9290078D200755BA2 /* KaffeFinderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaffeFinderAppApp.swift; sourceTree = "<group>"; };
-		F71CC4BB290078D200755BA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F71CC4BD290078D400755BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F71CC4C0290078D400755BA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F71CC4C2290078D400755BA2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F71CC4C5290078D400755BA2 /* KaffeFinderApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KaffeFinderApp.xcdatamodel; sourceTree = "<group>"; };
 		F71CC4C7290078D400755BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F71CC4CC290078D500755BA2 /* KaffeFinderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaffeFinderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F71CC4D0290078D500755BA2 /* KaffeFinderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaffeFinderAppTests.swift; sourceTree = "<group>"; };
-		F71CC4D6290078D500755BA2 /* KaffeFinderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaffeFinderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F71CC4DA290078D500755BA2 /* KaffeFinderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaffeFinderAppUITests.swift; sourceTree = "<group>"; };
-		F71CC4DC290078D500755BA2 /* KaffeFinderAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaffeFinderAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F71CC4EB290079A200755BA2 /* SalePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalePlace.swift; sourceTree = "<group>"; };
+		F71CC4EC290079A200755BA2 /* Addresse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Addresse.swift; sourceTree = "<group>"; };
+		F71CC4ED290079A200755BA2 /* SalePlaceGroocery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalePlaceGroocery.swift; sourceTree = "<group>"; };
+		F71CC4EE290079A200755BA2 /* AddressSalePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressSalePlace.swift; sourceTree = "<group>"; };
+		F71CC4EF290079A200755BA2 /* Posiition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Posiition.swift; sourceTree = "<group>"; };
+		F71CC4F0290079A200755BA2 /* ClickDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickDetail.swift; sourceTree = "<group>"; };
+		F71CC4F1290079A200755BA2 /* Groocery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Groocery.swift; sourceTree = "<group>"; };
+		F71CC4F2290079A200755BA2 /* UserAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAddress.swift; sourceTree = "<group>"; };
+		F71CC4F3290079A200755BA2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F71CC50F29007A5900755BA2 /* TimerUpdateMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerUpdateMap.swift; sourceTree = "<group>"; };
+		F71CC51029007A5900755BA2 /* NetWorkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkService.swift; sourceTree = "<group>"; };
+		F71CC51129007A5900755BA2 /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
+		F71CC51229007A5900755BA2 /* IObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IObserver.swift; sourceTree = "<group>"; };
+		F71CC51329007A5900755BA2 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		F71CC51429007A5900755BA2 /* LocationServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationServiceManager.swift; sourceTree = "<group>"; };
+		F71CC51529007A5900755BA2 /* LocalStorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorageService.swift; sourceTree = "<group>"; };
+		F71CC56429007C2E00755BA2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../findfoodtruck/findfoodtruck/ContentView.swift; sourceTree = "<group>"; };
+		F71CC56C2900812F00755BA2 /* GrooceryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrooceryView.swift; sourceTree = "<group>"; };
+		F71CC56D2900812F00755BA2 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F71CC56E2900812F00755BA2 /* SalePlaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalePlaceView.swift; sourceTree = "<group>"; };
+		F71CC56F2900812F00755BA2 /* ClickDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickDetailView.swift; sourceTree = "<group>"; };
+		F71CC5702900812F00755BA2 /* CameraPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		F71CC5712900812F00755BA2 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F71CC5722900812F00755BA2 /* SalePlacDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalePlacDetailsView.swift; sourceTree = "<group>"; };
+		F71CC5732900812F00755BA2 /* AddressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		F71CC5742900812F00755BA2 /* AddAddresse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAddresse.swift; sourceTree = "<group>"; };
+		F71CC5752900812F00755BA2 /* PlaceListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
+		F71CC5762900812F00755BA2 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F71CC5772900812F00755BA2 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		F71CC5782900812F00755BA2 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F71CC5792900812F00755BA2 /* UserDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		F737C9D2290C6F4A002E02A7 /* GrooceryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrooceryListView.swift; sourceTree = "<group>"; };
+		F7497E06290869A400C0506E /* LoginObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginObservable.swift; sourceTree = "<group>"; };
+		F795A5142928C3340008F3F6 /* AddGrooceryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGrooceryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F71CC4B3290078D200755BA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F71CC4C9290078D500755BA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F71CC4D3290078D500755BA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				F71CC4B8290078D200755BA2 /* KaffeFinderApp */,
-				F71CC4CF290078D500755BA2 /* KaffeFinderAppTests */,
-				F71CC4D9290078D500755BA2 /* KaffeFinderAppUITests */,
 				F71CC4B7290078D200755BA2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				F71CC4B6290078D200755BA2 /* KaffeFinderApp.app */,
-				F71CC4CC290078D500755BA2 /* KaffeFinderAppTests.xctest */,
-				F71CC4D6290078D500755BA2 /* KaffeFinderAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,8 +124,11 @@
 		F71CC4B8290078D200755BA2 /* KaffeFinderApp */ = {
 			isa = PBXGroup;
 			children = (
+				F71CC52B29007A6000755BA2 /* views */,
+				F71CC4EA2900795100755BA2 /* models */,
+				F71CC4E92900794200755BA2 /* services */,
 				F71CC4B9290078D200755BA2 /* KaffeFinderAppApp.swift */,
-				F71CC4BB290078D200755BA2 /* ContentView.swift */,
+				F71CC56429007C2E00755BA2 /* ContentView.swift */,
 				F71CC4BD290078D400755BA2 /* Assets.xcassets */,
 				F71CC4C2290078D400755BA2 /* Persistence.swift */,
 				F71CC4C7290078D400755BA2 /* Info.plist */,
@@ -118,21 +146,59 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F71CC4CF290078D500755BA2 /* KaffeFinderAppTests */ = {
+		F71CC4E92900794200755BA2 /* services */ = {
 			isa = PBXGroup;
 			children = (
-				F71CC4D0290078D500755BA2 /* KaffeFinderAppTests.swift */,
+				F71CC51229007A5900755BA2 /* IObserver.swift */,
+				F71CC51529007A5900755BA2 /* LocalStorageService.swift */,
+				F71CC51429007A5900755BA2 /* LocationServiceManager.swift */,
+				F71CC51029007A5900755BA2 /* NetWorkService.swift */,
+				F71CC50F29007A5900755BA2 /* TimerUpdateMap.swift */,
+				F71CC51329007A5900755BA2 /* Subject.swift */,
+				F71CC51129007A5900755BA2 /* ZoomableScrollView.swift */,
+				F7497E06290869A400C0506E /* LoginObservable.swift */,
 			);
-			path = KaffeFinderAppTests;
+			path = services;
 			sourceTree = "<group>";
 		};
-		F71CC4D9290078D500755BA2 /* KaffeFinderAppUITests */ = {
+		F71CC4EA2900795100755BA2 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				F71CC4DA290078D500755BA2 /* KaffeFinderAppUITests.swift */,
-				F71CC4DC290078D500755BA2 /* KaffeFinderAppUITestsLaunchTests.swift */,
+				F71CC4EC290079A200755BA2 /* Addresse.swift */,
+				F71CC4EE290079A200755BA2 /* AddressSalePlace.swift */,
+				F71CC4F0290079A200755BA2 /* ClickDetail.swift */,
+				F71CC4F1290079A200755BA2 /* Groocery.swift */,
+				F71CC4EF290079A200755BA2 /* Posiition.swift */,
+				F71CC4EB290079A200755BA2 /* SalePlace.swift */,
+				F71CC4ED290079A200755BA2 /* SalePlaceGroocery.swift */,
+				F71CC4F3290079A200755BA2 /* User.swift */,
+				F71CC4F2290079A200755BA2 /* UserAddress.swift */,
 			);
-			path = KaffeFinderAppUITests;
+			path = models;
+			sourceTree = "<group>";
+		};
+		F71CC52B29007A6000755BA2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F71CC5742900812F00755BA2 /* AddAddresse.swift */,
+				F71CC5732900812F00755BA2 /* AddressView.swift */,
+				F71CC5702900812F00755BA2 /* CameraPicker.swift */,
+				F71CC56F2900812F00755BA2 /* ClickDetailView.swift */,
+				F71CC56C2900812F00755BA2 /* GrooceryView.swift */,
+				F71CC5762900812F00755BA2 /* ImagePicker.swift */,
+				F71CC56D2900812F00755BA2 /* LoginView.swift */,
+				F71CC5782900812F00755BA2 /* MapView.swift */,
+				F71CC5752900812F00755BA2 /* PlaceListView.swift */,
+				F71CC5722900812F00755BA2 /* SalePlacDetailsView.swift */,
+				F71CC56E2900812F00755BA2 /* SalePlaceView.swift */,
+				F71CC5792900812F00755BA2 /* UserDetailsView.swift */,
+				F71CC5772900812F00755BA2 /* UserView.swift */,
+				F71CC5712900812F00755BA2 /* ViewModel.swift */,
+				F737C9D2290C6F4A002E02A7 /* GrooceryListView.swift */,
+				F719F8A829210AC900A6DA3F /* AddressDetailsView.swift */,
+				F795A5142928C3340008F3F6 /* AddGrooceryView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,42 +221,6 @@
 			productReference = F71CC4B6290078D200755BA2 /* KaffeFinderApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F71CC4CB290078D500755BA2 /* KaffeFinderAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F71CC4E3290078D500755BA2 /* Build configuration list for PBXNativeTarget "KaffeFinderAppTests" */;
-			buildPhases = (
-				F71CC4C8290078D500755BA2 /* Sources */,
-				F71CC4C9290078D500755BA2 /* Frameworks */,
-				F71CC4CA290078D500755BA2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F71CC4CE290078D500755BA2 /* PBXTargetDependency */,
-			);
-			name = KaffeFinderAppTests;
-			productName = KaffeFinderAppTests;
-			productReference = F71CC4CC290078D500755BA2 /* KaffeFinderAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F71CC4D5290078D500755BA2 /* KaffeFinderAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F71CC4E6290078D500755BA2 /* Build configuration list for PBXNativeTarget "KaffeFinderAppUITests" */;
-			buildPhases = (
-				F71CC4D2290078D500755BA2 /* Sources */,
-				F71CC4D3290078D500755BA2 /* Frameworks */,
-				F71CC4D4290078D500755BA2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F71CC4D8290078D500755BA2 /* PBXTargetDependency */,
-			);
-			name = KaffeFinderAppUITests;
-			productName = KaffeFinderAppUITests;
-			productReference = F71CC4D6290078D500755BA2 /* KaffeFinderAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,14 +233,6 @@
 				TargetAttributes = {
 					F71CC4B5290078D200755BA2 = {
 						CreatedOnToolsVersion = 14.0.1;
-					};
-					F71CC4CB290078D500755BA2 = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = F71CC4B5290078D200755BA2;
-					};
-					F71CC4D5290078D500755BA2 = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = F71CC4B5290078D200755BA2;
 					};
 				};
 			};
@@ -228,8 +250,6 @@
 			projectRoot = "";
 			targets = (
 				F71CC4B5290078D200755BA2 /* KaffeFinderApp */,
-				F71CC4CB290078D500755BA2 /* KaffeFinderAppTests */,
-				F71CC4D5290078D500755BA2 /* KaffeFinderAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,20 +264,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F71CC4CA290078D500755BA2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F71CC4D4290078D500755BA2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -265,44 +271,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71CC50C290079A200755BA2 /* User.swift in Sources */,
+				F71CC500290079A200755BA2 /* Posiition.swift in Sources */,
+				F71CC506290079A200755BA2 /* Groocery.swift in Sources */,
+				F71CC5852900813000755BA2 /* UserView.swift in Sources */,
+				F71CC51929007A5900755BA2 /* NetWorkService.swift in Sources */,
+				F71CC57D2900813000755BA2 /* ClickDetailView.swift in Sources */,
+				F71CC4F7290079A200755BA2 /* Addresse.swift in Sources */,
+				F71CC57F2900813000755BA2 /* ViewModel.swift in Sources */,
+				F795A5152928C3340008F3F6 /* AddGrooceryView.swift in Sources */,
+				F71CC4FD290079A200755BA2 /* AddressSalePlace.swift in Sources */,
+				F71CC51C29007A5900755BA2 /* ZoomableScrollView.swift in Sources */,
 				F71CC4C3290078D400755BA2 /* Persistence.swift in Sources */,
+				F71CC57B2900813000755BA2 /* LoginView.swift in Sources */,
+				F71CC56529007C2E00755BA2 /* ContentView.swift in Sources */,
+				F71CC5832900813000755BA2 /* PlaceListView.swift in Sources */,
+				F737C9D3290C6F4A002E02A7 /* GrooceryListView.swift in Sources */,
+				F71CC5822900813000755BA2 /* AddAddresse.swift in Sources */,
+				F71CC4F4290079A200755BA2 /* SalePlace.swift in Sources */,
+				F71CC5802900813000755BA2 /* SalePlacDetailsView.swift in Sources */,
+				F71CC51629007A5900755BA2 /* TimerUpdateMap.swift in Sources */,
+				F71CC57E2900813000755BA2 /* CameraPicker.swift in Sources */,
+				F71CC503290079A200755BA2 /* ClickDetail.swift in Sources */,
+				F71CC52529007A5900755BA2 /* LocationServiceManager.swift in Sources */,
 				F71CC4C6290078D400755BA2 /* KaffeFinderApp.xcdatamodeld in Sources */,
-				F71CC4BC290078D200755BA2 /* ContentView.swift in Sources */,
+				F71CC5872900813000755BA2 /* UserDetailsView.swift in Sources */,
+				F71CC57A2900813000755BA2 /* GrooceryView.swift in Sources */,
+				F7497E07290869A400C0506E /* LoginObservable.swift in Sources */,
+				F71CC52829007A5900755BA2 /* LocalStorageService.swift in Sources */,
+				F71CC5842900813000755BA2 /* ImagePicker.swift in Sources */,
+				F71CC5862900813000755BA2 /* MapView.swift in Sources */,
+				F71CC5812900813000755BA2 /* AddressView.swift in Sources */,
+				F71CC51F29007A5900755BA2 /* IObserver.swift in Sources */,
+				F71CC509290079A200755BA2 /* UserAddress.swift in Sources */,
+				F719F8A929210AC900A6DA3F /* AddressDetailsView.swift in Sources */,
 				F71CC4BA290078D200755BA2 /* KaffeFinderAppApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F71CC4C8290078D500755BA2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F71CC4D1290078D500755BA2 /* KaffeFinderAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F71CC4D2290078D500755BA2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F71CC4DD290078D500755BA2 /* KaffeFinderAppUITestsLaunchTests.swift in Sources */,
-				F71CC4DB290078D500755BA2 /* KaffeFinderAppUITests.swift in Sources */,
+				F71CC52229007A5900755BA2 /* Subject.swift in Sources */,
+				F71CC4FA290079A200755BA2 /* SalePlaceGroocery.swift in Sources */,
+				F71CC57C2900813000755BA2 /* SalePlaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F71CC4CE290078D500755BA2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F71CC4B5290078D200755BA2 /* KaffeFinderApp */;
-			targetProxy = F71CC4CD290078D500755BA2 /* PBXContainerItemProxy */;
-		};
-		F71CC4D8290078D500755BA2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F71CC4B5290078D200755BA2 /* KaffeFinderApp */;
-			targetProxy = F71CC4D7290078D500755BA2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F71CC4DE290078D500755BA2 /* Debug */ = {
@@ -430,6 +440,7 @@
 				DEVELOPMENT_TEAM = SNXVLJS2UW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KaffeFinderApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,6 +470,7 @@
 				DEVELOPMENT_TEAM = SNXVLJS2UW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KaffeFinderApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -474,82 +486,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F71CC4E4290078D500755BA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SNXVLJS2UW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Kleistit.KaffeFinderAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaffeFinderApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KaffeFinderApp";
-			};
-			name = Debug;
-		};
-		F71CC4E5290078D500755BA2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SNXVLJS2UW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Kleistit.KaffeFinderAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaffeFinderApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KaffeFinderApp";
-			};
-			name = Release;
-		};
-		F71CC4E7290078D500755BA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SNXVLJS2UW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Kleistit.KaffeFinderAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KaffeFinderApp;
-			};
-			name = Debug;
-		};
-		F71CC4E8290078D500755BA2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SNXVLJS2UW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Kleistit.KaffeFinderAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KaffeFinderApp;
 			};
 			name = Release;
 		};
@@ -570,24 +506,6 @@
 			buildConfigurations = (
 				F71CC4E1290078D500755BA2 /* Debug */,
 				F71CC4E2290078D500755BA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F71CC4E3290078D500755BA2 /* Build configuration list for PBXNativeTarget "KaffeFinderAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F71CC4E4290078D500755BA2 /* Debug */,
-				F71CC4E5290078D500755BA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F71CC4E6290078D500755BA2 /* Build configuration list for PBXNativeTarget "KaffeFinderAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F71CC4E7290078D500755BA2 /* Debug */,
-				F71CC4E8290078D500755BA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

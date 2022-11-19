@@ -10,10 +10,11 @@ import SwiftUI
 @main
 struct KaffeFinderAppApp: App {
     let persistenceController = PersistenceController.shared
-
+    @StateObject var Login: LoginObservable = LoginObservable()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(Login)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
