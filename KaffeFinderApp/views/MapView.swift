@@ -17,7 +17,7 @@ struct MyAnnotationItem: Identifiable {
 }
 struct MapView: View {
 
-
+    @ObservedObject var location: LocationManager = LocationManager()
     var body: some View {
        Text("Hello")
     }

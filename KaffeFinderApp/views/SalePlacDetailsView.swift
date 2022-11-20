@@ -20,7 +20,7 @@ struct SalePlacDetailsView: View {
            
         }
         VStack{
-           
+            HStack {
                 Button(action: openGrooceryList) {
                     Text("Show Grooceries")
                 }.sheet(isPresented: $showGroocery) {
@@ -29,9 +29,10 @@ struct SalePlacDetailsView: View {
                 Button(action: addGroocery) {
                     Text("Add Groocery")
                 }.sheet(isPresented: $addDetails) {
-               AddGrooceryView()
+                    AddGrooceryView()
                 }.buttonStyle(.bordered)
-          
+                
+            }
             Toggle("OpenScop", isOn: $openShop)
                 .toggleStyle(.switch)
             Toggle("Close Shop", isOn: $closeShop).toggleStyle(.switch)

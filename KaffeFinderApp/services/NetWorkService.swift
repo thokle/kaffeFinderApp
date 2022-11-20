@@ -321,7 +321,39 @@ public class NetWorkService: NSObject {
         }.resume()
     }
     
+    func getAddressByUsername(usermame:String , completion: @escaping (Result<[Addresse], Error>)->Void) {
+        guard let url = URL(string: "") else {
+            return
+        }
+    }
     
+    func getUserByEmail(email:String, completion: @escaping (Result<User,Error>)->Void){
+        guard let url = URL(string: "\(ip):\(port)/user/getUserByEmail/\(email)") else {
+            return
+        }
+        
+        var request = URLRequest(url: url)
+        request.setValue("application/json", forHTTPHeaderField: "Accept")
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+     
+        request.httpMethod = "GET"
+        
+        URLSession.shared.dataTask(with: request) {
+            (data, response, error) in
+            if let error = error {
+                completion(.failure(error.localizedDescription as! Error))
+            }
+            do {
+                var res = try JSONDecoder().decode(User.self, from: data!)
+                DispatchQueue.main.async {
+                    completion(.success(res))
+                }
+            } catch let error {
+                completion(.failure(error.localizedDescription as!  Error))
+            }
+        }}
+    
+
 
 }
 

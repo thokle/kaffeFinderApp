@@ -12,7 +12,7 @@ struct SalePlaceView: View {
     @State var name:String = ""
     @State var suscess:Bool = false
     @State var faliure:Bool = false
-    @StateObject var location: LocationManager = LocationManager()
+    @ObservedObject var location: LocationManager = LocationManager()
     
     @State var netWork: NetWorkService = NetWorkService()
     
@@ -52,6 +52,7 @@ struct SalePlaceView: View {
             salePlce.lat = location.lastLocation?.coordinate.longitude
             salePlce.name = name
             salePlce.type = type
+            salePlce.isClosed = true
             netWork.addSalePlaceToUser(salePlace: salePlce, id:String( LocalStorageService().getUserId())) {
                 (res) in
                 switch res {

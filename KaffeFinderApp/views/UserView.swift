@@ -23,14 +23,20 @@ struct UserView: View {
     @State var isCreated:Bool =  false
     @State var isfaliure:Bool = false
     @State var passwordNotSame:Bool = false
+
+    @State var emailExist:Bool = false
     var body: some View {
         
         
             Form {
                 TextField("Firstname", text: $firstname).padding(1)
                 TextField("Lastname", text: $lastname).padding(1)
-                TextField("Username", text: $username).padding()
-                TextField("E-mail", text: $email).padding()
+                TextField("Username", text: $username).padding(1)
+                TextField("E-mail", text: $email).padding().onTapGesture {
+                    doesEmailExcist()
+                }.alert("E-mail exist", isPresented: $emailExist) {
+                    Text("E-mail address does already exist")
+                }
                 SecureField("Password", text: $password).padding().cornerRadius(/*@START_MENU_TOKEN@*/4.0/*@END_MENU_TOKEN@*/)
                 SecureField("Repeat Password", text: $repeatPassword).padding().alert("Password matcher ikke", isPresented: $passwordNotSame) {}
                 
@@ -73,34 +79,51 @@ struct UserView_Previews: PreviewProvider {
 extension UserView {
 
     func  createUser() {
-        
-        var user = User()
-        user.firstname = self.firstname
-        user.lastname = self.lastname
-        user.email = self.email.lowercased()
-        user.password = self.password
-        user.username = self.username
-        
-        if (self.password.compare(self.repeatPassword) == .orderedSame) {
-            self.networtkServce.addUser(user: user) {
-                (c) in
-                
-                switch c {
-                case .failure(let error):
-                    isfaliure = true
-                case .success(let success):
-                    isCreated = true
+        doesEmailExcist()
+        if  !emailExist {
+            var user = User()
+            user.firstname = self.firstname
+            user.lastname = self.lastname
+            user.email = self.email.lowercased()
+            user.password = self.password
+            user.username = self.username
+            
+            if (self.password.compare(self.repeatPassword) == .orderedSame) {
+                self.networtkServce.addUser(user: user) {
+                    (c) in
+                    
+                    switch c {
+                    case .failure(let error):
+                        isfaliure = true
+                    case .success(let success):
+                        isCreated = true
+                    }
+                    
+                    
+                    
                 }
-                
-                
-                
+            } else {
+                self.passwordNotSame = true
             }
-        } else {
-            self.passwordNotSame = true
         }
     }
     
     func cancel() {}
        
+    func doesEmailExcist() {
+        self.networtkServce.getUserByEmail(email: self.email){
+         (res) in
+            switch res {
+            case .success(let success):
+                if  success.email?.count ?? 0 > 0 {
+                    emailExist = true
+                }
+            case .failure(let error):
+                print(error.localizedDescription)
+            
+            }
+        }
+    }
+    
  
 }

@@ -12,8 +12,6 @@ struct PlaceListView: View {
     @State var places:[SalePlace] = [SalePlace]()
     var body: some View {
        
-            
-            Text("Sale Places")
         List(places, id: \.id) {
            SalePlacDetailsView(salePlace: $0)
         }.onAppear(perform:loadSalePlaces)
