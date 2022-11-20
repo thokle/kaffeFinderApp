@@ -12,12 +12,13 @@ import CoreLocation
 class LocationManager: NSObject, ObservableObject,  CLLocationManagerDelegate {
     
     private let locationManager = CLLocationManager()
+    locationManager.delegate = self
     @Published var locationStatus: CLAuthorizationStatus?
     @Published var lastLocation: CLLocation?
     
     override init() {
         super.init()
-        locationManager.delegate = self
+      
         locationManager.desiredAccuracy = kCLLocationAccuracyThreeKilometers
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()

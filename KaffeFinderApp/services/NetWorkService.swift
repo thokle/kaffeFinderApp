@@ -344,7 +344,7 @@ public class NetWorkService: NSObject {
                 completion(.failure(error.localizedDescription as! Error))
             }
             do {
-                var res = try JSONDecoder().decode(User.self, from: data!)
+                let res = try JSONDecoder().decode(User.self, from: data!)
                 DispatchQueue.main.async {
                     completion(.success(res))
                 }

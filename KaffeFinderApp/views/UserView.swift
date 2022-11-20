@@ -79,7 +79,7 @@ struct UserView_Previews: PreviewProvider {
 extension UserView {
 
     func  createUser() {
-        doesEmailExcist()
+     
         if  !emailExist {
             var user = User()
             user.firstname = self.firstname
@@ -105,13 +105,15 @@ extension UserView {
             } else {
                 self.passwordNotSame = true
             }
+        } else {
+            emailExist = true
         }
     }
     
     func cancel() {}
        
     func doesEmailExcist() {
-        self.networtkServce.getUserByEmail(email: self.email){
+            self.networtkServce.getUserByEmail(email: self.email){
          (res) in
             switch res {
             case .success(let success):
