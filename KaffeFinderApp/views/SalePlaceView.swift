@@ -12,8 +12,16 @@ struct SalePlaceView: View {
     @State var name:String = ""
     @State var suscess:Bool = false
     @State var faliure:Bool = false
-    @ObservedObject var location: LocationManager = LocationManager()
+    @StateObject var location: LocationManager = LocationManager()
     
+    
+     var userLatitude: String {
+         return "\(location.lastLocation?.coordinate.latitude ?? 0)"
+     }
+     
+     var userLongitude: String {
+         return "\(location.lastLocation?.coordinate.longitude ?? 0)"
+     }
     @State var netWork: NetWorkService = NetWorkService()
     
     var body: some View {
@@ -48,8 +56,8 @@ struct SalePlaceView: View {
         
         func createSalePlace() {
             var salePlce: SalePlace = SalePlace()
-            salePlce.lat = location.lastLocation?.coordinate.latitude
-            salePlce.lat = location.lastLocation?.coordinate.longitude
+            salePlce.lat = Double(userLatitude)
+            salePlce.lat = Double(userLongitude)
             salePlce.name = name
             salePlce.type = type
             salePlce.isClosed = true
