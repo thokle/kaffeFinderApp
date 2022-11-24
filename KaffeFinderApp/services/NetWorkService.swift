@@ -11,7 +11,7 @@ import Foundation
 public class NetWorkService: NSObject {
     
     //ad-scoop.com
-    var ip = "http://ad-scoop.com"
+    var ip = "http://192.168.2.247"
     var port = "8889"
     
     func getAllOpenSalePlaces(complietion: @escaping (Result<[SalePlace]?, Error>)->Void) {
@@ -167,53 +167,7 @@ public class NetWorkService: NSObject {
         
     }
     
-    func openShop(id: Int, completion: @escaping (Result<Bool?, Error>)->Void){
-        guard let url = URL(string: "\(ip):\(port)") else {
-            print("Invalid url"); return
-        }
-        var request = URLRequest(url: url)
-        request.httpMethod = "GET"
-        
-        URLSession.shared.dataTask(with: request) {
-            (data, response, error) in
-            if let error = error {
-                completion(.failure(error.localizedDescription as! Error))
-            }
-            do {
-                let res = try JSONDecoder().decode(Bool.self, from: data!)
-                DispatchQueue.main.async {
-                    completion(.success(res))
-                }
-            }catch let jsonError {
-                completion(.failure(jsonError.localizedDescription as! Error))
-            }
-            
-        }
-    }
-    
-    func closeShop(id: Int, completion: @escaping (Result<Bool?, Error>)->Void) {
-        guard let url = URL(string: "\(ip):\(port)") else {
-            print("Invalid url"); return
-        }
-        var request = URLRequest(url: url)
-        request.httpMethod = "GET"
-        URLSession.shared.dataTask(with: request)
-        { (data, response , error) in
-            
-            if let error = error {
-                completion(.failure(error.localizedDescription as! Error))
-            }
-            
-            do {
-                let res = try JSONDecoder().decode(Bool.self, from: data!)
-                DispatchQueue.main.async {
-                    completion(.success(res))
-                }
-            } catch let json {
-                completion(.failure(json.localizedDescription as! Error))
-            }
-        }
-    }
+
     
     func logion(username: String, password: String, completion: @escaping (Result<User?,Error>)->Void) {
         guard let url = URL(string: "\(ip):\(port)/user/login") else {
@@ -353,7 +307,72 @@ public class NetWorkService: NSObject {
             }
         }}
     
+    
+    func openShop(id: Int,salePlace: SalePlace, completion: @escaping (Result<SalePlace, Error>)->Void) {
+        guard let url = URL(string: "\(ip):\(port)/sale/open") else {
+            return
+        }
+        var request = URLRequest(url: url)
+        request.setValue("application/json", forHTTPHeaderField: "Accept")
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.httpBody = try! JSONEncoder().encode(salePlace)
+        request.httpMethod = "PUT"
+        
+        
+        URLSession.shared.dataTask(with: request) {
+            (data, response,error) in
+            
+            if let error = error {
+                print(error)
+                completion(.failure(error.localizedDescription as! Error))
+            }
+            
+            do {
+                
+                let res = try JSONDecoder().decode(SalePlace.self, from: data!)
+                DispatchQueue.main.async {
+                    completion(.success(res))
+                }
+            } catch let jsonError {
+                completion(.failure(jsonError.localizedDescription as! Error))
+            }
+            
+        }.resume()
+        
+        
+        
+    }
 
-
+    
+    func closeShop(id: Int, completion: @escaping (Result<SalePlace, Error>)->Void) {
+        
+        guard let url = URL(string: "\(ip):\(port)/sale/close/\(id)") else {
+            return
+        }
+        var request = URLRequest(url: url)
+        request.setValue("application/json", forHTTPHeaderField: "Accept")
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+     
+        request.httpMethod = "GET"
+        
+        URLSession.shared.dataTask(with: request) {
+            (data,response, error) in
+            if let error = error {
+                completion(.failure(error.localizedDescription as! Error))
+            }
+            
+            do {
+                let res = try JSONDecoder().decode(SalePlace.self, from: data!)
+                DispatchQueue.main.async {
+                    completion(.success(res))
+                }
+            } catch let jsonError {
+                completion(.failure(jsonError.localizedDescription as! Error))
+            }
+            
+            
+        }.resume()
+        
+    }
 }
 

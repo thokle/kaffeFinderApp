@@ -9,8 +9,12 @@ import SwiftUI
 
 struct GrooceryView: View {
     @EnvironmentObject var vm: ViewModel
+    @State var salePlaceID:String
     var body: some View {
         NavigationView {
+            TextField(text: $salePlaceID) {
+            Text("SalePlace ID")
+            }
             if let image = vm.image {
                 ZoomableScrollView {
                     Image(uiImage: image)
@@ -53,6 +57,6 @@ struct GrooceryView: View {
 
 struct GrooceryView_Previews: PreviewProvider {
     static var previews: some View {
-        GrooceryView()
+        GrooceryView(salePlaceID: "0").environmentObject(ViewModel())
     }
 }

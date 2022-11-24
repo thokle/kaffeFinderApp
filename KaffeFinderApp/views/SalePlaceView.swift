@@ -60,7 +60,7 @@ struct SalePlaceView: View {
             salePlce.lat = Double(userLongitude)
             salePlce.name = name
             salePlce.type = type
-            salePlce.isClosed = true
+            salePlce.isClosed = false
             netWork.addSalePlaceToUser(salePlace: salePlce, id:String( LocalStorageService().getUserId())) {
                 (res) in
                 switch res {
