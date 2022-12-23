@@ -8,11 +8,11 @@
 import Foundation
 
 
-struct Groocery :Codable {
-    
+struct Groocery : Codable {
+    var id:Int?
     var name:String?
     var type:String?
-    var price:Double
+    var price:Double?
     var picture:String?
     var  isSoldOut:Bool?
 }

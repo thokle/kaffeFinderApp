@@ -27,7 +27,6 @@
 		F71CC51C29007A5900755BA2 /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51129007A5900755BA2 /* ZoomableScrollView.swift */; };
 		F71CC51F29007A5900755BA2 /* IObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51229007A5900755BA2 /* IObserver.swift */; };
 		F71CC52229007A5900755BA2 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51329007A5900755BA2 /* Subject.swift */; };
-		F71CC52529007A5900755BA2 /* LocationServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51429007A5900755BA2 /* LocationServiceManager.swift */; };
 		F71CC52829007A5900755BA2 /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51529007A5900755BA2 /* LocalStorageService.swift */; };
 		F71CC56529007C2E00755BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC56429007C2E00755BA2 /* ContentView.swift */; };
 		F71CC57A2900813000755BA2 /* GrooceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC56C2900812F00755BA2 /* GrooceryView.swift */; };
@@ -42,11 +41,21 @@
 		F71CC5832900813000755BA2 /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5752900812F00755BA2 /* PlaceListView.swift */; };
 		F71CC5842900813000755BA2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5762900812F00755BA2 /* ImagePicker.swift */; };
 		F71CC5852900813000755BA2 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5772900812F00755BA2 /* UserView.swift */; };
-		F71CC5862900813000755BA2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5782900812F00755BA2 /* MapView.swift */; };
 		F71CC5872900813000755BA2 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5792900812F00755BA2 /* UserDetailsView.swift */; };
 		F737C9D3290C6F4A002E02A7 /* GrooceryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737C9D2290C6F4A002E02A7 /* GrooceryListView.swift */; };
 		F7497E07290869A400C0506E /* LoginObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7497E06290869A400C0506E /* LoginObservable.swift */; };
+		F76823EA2949130F008CD9B8 /* SalePlacesObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76823E92949130F008CD9B8 /* SalePlacesObservable.swift */; };
+		F76823ED294A03F9008CD9B8 /* SaleItemObservale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76823EC294A03F9008CD9B8 /* SaleItemObservale.swift */; };
+		F76823EF294A0D62008CD9B8 /* ObserservedFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76823EE294A0D62008CD9B8 /* ObserservedFactory.swift */; };
 		F795A5152928C3340008F3F6 /* AddGrooceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795A5142928C3340008F3F6 /* AddGrooceryView.swift */; };
+		F7A54E39295386410021CF71 /* GrooceriesDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A54E38295386410021CF71 /* GrooceriesDetailsView.swift */; };
+		F7D682332944897000DBF066 /* AnnotationObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D682312944897000DBF066 /* AnnotationObservable.swift */; };
+		F7D682342944897000DBF066 /* KafkaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D682322944897000DBF066 /* KafkaService.swift */; };
+		F7D6823C2944D74100DBF066 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D6823B2944D74100DBF066 /* Coordinator.swift */; };
+		F7D6823F294529A000DBF066 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D6823E294529A000DBF066 /* LocationManager.swift */; };
+		F7DB42182946669300C875F0 /* KortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DB42172946669300C875F0 /* KortView.swift */; };
+		F7DB421A2946679500C875F0 /* MKCoordinatRegion+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DB42192946679500C875F0 /* MKCoordinatRegion+Extension.swift */; };
+		F7DB421C2946771A00C875F0 /* SaleCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DB421B2946771A00C875F0 /* SaleCoordinates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,7 +81,6 @@
 		F71CC51129007A5900755BA2 /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
 		F71CC51229007A5900755BA2 /* IObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IObserver.swift; sourceTree = "<group>"; };
 		F71CC51329007A5900755BA2 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
-		F71CC51429007A5900755BA2 /* LocationServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationServiceManager.swift; sourceTree = "<group>"; };
 		F71CC51529007A5900755BA2 /* LocalStorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorageService.swift; sourceTree = "<group>"; };
 		F71CC56429007C2E00755BA2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../findfoodtruck/findfoodtruck/ContentView.swift; sourceTree = "<group>"; };
 		F71CC56C2900812F00755BA2 /* GrooceryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrooceryView.swift; sourceTree = "<group>"; };
@@ -87,11 +95,21 @@
 		F71CC5752900812F00755BA2 /* PlaceListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
 		F71CC5762900812F00755BA2 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		F71CC5772900812F00755BA2 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
-		F71CC5782900812F00755BA2 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F71CC5792900812F00755BA2 /* UserDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
 		F737C9D2290C6F4A002E02A7 /* GrooceryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrooceryListView.swift; sourceTree = "<group>"; };
 		F7497E06290869A400C0506E /* LoginObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginObservable.swift; sourceTree = "<group>"; };
+		F76823E92949130F008CD9B8 /* SalePlacesObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalePlacesObservable.swift; sourceTree = "<group>"; };
+		F76823EC294A03F9008CD9B8 /* SaleItemObservale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleItemObservale.swift; sourceTree = "<group>"; };
+		F76823EE294A0D62008CD9B8 /* ObserservedFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserservedFactory.swift; sourceTree = "<group>"; };
 		F795A5142928C3340008F3F6 /* AddGrooceryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGrooceryView.swift; sourceTree = "<group>"; };
+		F7A54E38295386410021CF71 /* GrooceriesDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrooceriesDetailsView.swift; sourceTree = "<group>"; };
+		F7D682312944897000DBF066 /* AnnotationObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationObservable.swift; sourceTree = "<group>"; };
+		F7D682322944897000DBF066 /* KafkaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KafkaService.swift; sourceTree = "<group>"; };
+		F7D6823B2944D74100DBF066 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F7D6823E294529A000DBF066 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F7DB42172946669300C875F0 /* KortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KortView.swift; sourceTree = "<group>"; };
+		F7DB42192946679500C875F0 /* MKCoordinatRegion+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinatRegion+Extension.swift"; sourceTree = "<group>"; };
+		F7DB421B2946771A00C875F0 /* SaleCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCoordinates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +142,9 @@
 		F71CC4B8290078D200755BA2 /* KaffeFinderApp */ = {
 			isa = PBXGroup;
 			children = (
+				F76823EB294A03D5008CD9B8 /* observable */,
+				F7D6823D2945296C00DBF066 /* Managers */,
+				F7D6823A2944D71F00DBF066 /* Coordinators */,
 				F71CC52B29007A6000755BA2 /* views */,
 				F71CC4EA2900795100755BA2 /* models */,
 				F71CC4E92900794200755BA2 /* services */,
@@ -134,6 +155,7 @@
 				F71CC4C7290078D400755BA2 /* Info.plist */,
 				F71CC4C4290078D400755BA2 /* KaffeFinderApp.xcdatamodeld */,
 				F71CC4BF290078D400755BA2 /* Preview Content */,
+				F7DB42192946679500C875F0 /* MKCoordinatRegion+Extension.swift */,
 			);
 			path = KaffeFinderApp;
 			sourceTree = "<group>";
@@ -149,14 +171,16 @@
 		F71CC4E92900794200755BA2 /* services */ = {
 			isa = PBXGroup;
 			children = (
+				F7D682312944897000DBF066 /* AnnotationObservable.swift */,
+				F7D682322944897000DBF066 /* KafkaService.swift */,
 				F71CC51229007A5900755BA2 /* IObserver.swift */,
 				F71CC51529007A5900755BA2 /* LocalStorageService.swift */,
-				F71CC51429007A5900755BA2 /* LocationServiceManager.swift */,
 				F71CC51029007A5900755BA2 /* NetWorkService.swift */,
 				F71CC50F29007A5900755BA2 /* TimerUpdateMap.swift */,
 				F71CC51329007A5900755BA2 /* Subject.swift */,
 				F71CC51129007A5900755BA2 /* ZoomableScrollView.swift */,
 				F7497E06290869A400C0506E /* LoginObservable.swift */,
+				F76823E92949130F008CD9B8 /* SalePlacesObservable.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -187,7 +211,6 @@
 				F71CC56C2900812F00755BA2 /* GrooceryView.swift */,
 				F71CC5762900812F00755BA2 /* ImagePicker.swift */,
 				F71CC56D2900812F00755BA2 /* LoginView.swift */,
-				F71CC5782900812F00755BA2 /* MapView.swift */,
 				F71CC5752900812F00755BA2 /* PlaceListView.swift */,
 				F71CC5722900812F00755BA2 /* SalePlacDetailsView.swift */,
 				F71CC56E2900812F00755BA2 /* SalePlaceView.swift */,
@@ -197,8 +220,36 @@
 				F737C9D2290C6F4A002E02A7 /* GrooceryListView.swift */,
 				F719F8A829210AC900A6DA3F /* AddressDetailsView.swift */,
 				F795A5142928C3340008F3F6 /* AddGrooceryView.swift */,
+				F7DB42172946669300C875F0 /* KortView.swift */,
+				F7A54E38295386410021CF71 /* GrooceriesDetailsView.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		F76823EB294A03D5008CD9B8 /* observable */ = {
+			isa = PBXGroup;
+			children = (
+				F76823EC294A03F9008CD9B8 /* SaleItemObservale.swift */,
+				F76823EE294A0D62008CD9B8 /* ObserservedFactory.swift */,
+			);
+			path = observable;
+			sourceTree = "<group>";
+		};
+		F7D6823A2944D71F00DBF066 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F7D6823B2944D74100DBF066 /* Coordinator.swift */,
+				F7DB421B2946771A00C875F0 /* SaleCoordinates.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		F7D6823D2945296C00DBF066 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F7D6823E294529A000DBF066 /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,8 +330,10 @@
 				F71CC57D2900813000755BA2 /* ClickDetailView.swift in Sources */,
 				F71CC4F7290079A200755BA2 /* Addresse.swift in Sources */,
 				F71CC57F2900813000755BA2 /* ViewModel.swift in Sources */,
+				F76823ED294A03F9008CD9B8 /* SaleItemObservale.swift in Sources */,
 				F795A5152928C3340008F3F6 /* AddGrooceryView.swift in Sources */,
 				F71CC4FD290079A200755BA2 /* AddressSalePlace.swift in Sources */,
+				F7A54E39295386410021CF71 /* GrooceriesDetailsView.swift in Sources */,
 				F71CC51C29007A5900755BA2 /* ZoomableScrollView.swift in Sources */,
 				F71CC4C3290078D400755BA2 /* Persistence.swift in Sources */,
 				F71CC57B2900813000755BA2 /* LoginView.swift in Sources */,
@@ -291,21 +344,28 @@
 				F71CC4F4290079A200755BA2 /* SalePlace.swift in Sources */,
 				F71CC5802900813000755BA2 /* SalePlacDetailsView.swift in Sources */,
 				F71CC51629007A5900755BA2 /* TimerUpdateMap.swift in Sources */,
+				F7DB421A2946679500C875F0 /* MKCoordinatRegion+Extension.swift in Sources */,
+				F7D682342944897000DBF066 /* KafkaService.swift in Sources */,
 				F71CC57E2900813000755BA2 /* CameraPicker.swift in Sources */,
+				F7D6823C2944D74100DBF066 /* Coordinator.swift in Sources */,
 				F71CC503290079A200755BA2 /* ClickDetail.swift in Sources */,
-				F71CC52529007A5900755BA2 /* LocationServiceManager.swift in Sources */,
 				F71CC4C6290078D400755BA2 /* KaffeFinderApp.xcdatamodeld in Sources */,
 				F71CC5872900813000755BA2 /* UserDetailsView.swift in Sources */,
 				F71CC57A2900813000755BA2 /* GrooceryView.swift in Sources */,
 				F7497E07290869A400C0506E /* LoginObservable.swift in Sources */,
 				F71CC52829007A5900755BA2 /* LocalStorageService.swift in Sources */,
 				F71CC5842900813000755BA2 /* ImagePicker.swift in Sources */,
-				F71CC5862900813000755BA2 /* MapView.swift in Sources */,
 				F71CC5812900813000755BA2 /* AddressView.swift in Sources */,
+				F7DB42182946669300C875F0 /* KortView.swift in Sources */,
 				F71CC51F29007A5900755BA2 /* IObserver.swift in Sources */,
+				F76823EF294A0D62008CD9B8 /* ObserservedFactory.swift in Sources */,
+				F7DB421C2946771A00C875F0 /* SaleCoordinates.swift in Sources */,
+				F76823EA2949130F008CD9B8 /* SalePlacesObservable.swift in Sources */,
 				F71CC509290079A200755BA2 /* UserAddress.swift in Sources */,
+				F7D682332944897000DBF066 /* AnnotationObservable.swift in Sources */,
 				F719F8A929210AC900A6DA3F /* AddressDetailsView.swift in Sources */,
 				F71CC4BA290078D200755BA2 /* KaffeFinderAppApp.swift in Sources */,
+				F7D6823F294529A000DBF066 /* LocationManager.swift in Sources */,
 				F71CC52229007A5900755BA2 /* Subject.swift in Sources */,
 				F71CC4FA290079A200755BA2 /* SalePlaceGroocery.swift in Sources */,
 				F71CC57C2900813000755BA2 /* SalePlaceView.swift in Sources */,

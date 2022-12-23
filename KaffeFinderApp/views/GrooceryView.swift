@@ -8,19 +8,49 @@
 import SwiftUI
 
 struct GrooceryView: View {
+    @State var name:String = ""
+    @State var type:String = ""
+    @State var price:String = ""
+    @State var picureUrl:String?
     @EnvironmentObject var vm: ViewModel
+    @State var network:NetWorkService = NetWorkService()
     @State var salePlaceID:String
+    @State var grooceyIsAddded = false
     var body: some View {
-        NavigationView {
-            TextField(text: $salePlaceID) {
-            Text("SalePlace ID")
+        
+        
+        HStack {
+            
+            TextField("Name", text: $name)
+            TextField("Type", text: $type)
+            TextField("Price", text: $price)
+        }
+        VStack {
+            Button {
+                vm.source = .camera
+                vm.showPhotoPicker()
+            } label: {
+                Text("Camera")
+            }.buttonStyle(.bordered)
+            Button {
+                vm.source = .library
+                vm.showPhotoPicker()
+            } label: {
+                Text("Photoalbum")
+            }.buttonStyle(.bordered)
+            Button {
+                addGrooveToSalePlace()
+            } label: {
+                Text("Add groocery")
             }
+            
+            
             if let image = vm.image {
                 ZoomableScrollView {
                     Image(uiImage: image)
                         .resizable()
                         .scaledToFit()
-                    .frame(minWidth: 0, maxWidth: .infinity)
+                        .frame(minWidth: 0, maxWidth: .infinity)
                 }
             } else {
                 Image(systemName: "photo.fill")
@@ -30,33 +60,55 @@ struct GrooceryView: View {
                     .frame(minWidth: 4, maxWidth: .infinity)
                     .padding(.horizontal)
             }
-            HStack {
-               
-                Button {
-                    vm.source = .camera
-                    vm.showPhotoPicker()
-                } label: {
-                    Text("Camera")
-                }
-                Button {
-                    vm.source = .library
-                    vm.showPhotoPicker()
-                } label: {
-                    Text("Photoalbum")
-                }
-            }
+            
         }.sheet(isPresented: $vm.showPicker) {
             ImagePicker(sourceType: vm.source == .library ? .photoLibrary : .camera, selectedImage: $vm.image)
-                .ignoresSafeArea()
+            
         }
-        .navigationTitle("Opret vare")
         
+    }
+
         
+    
+    
+    
+    struct GrooceryView_Previews: PreviewProvider {
+        static var previews: some View {
+            GrooceryView( salePlaceID: "").environmentObject(ViewModel())
+        }
     }
 }
 
-struct GrooceryView_Previews: PreviewProvider {
-    static var previews: some View {
-        GrooceryView(salePlaceID: "0").environmentObject(ViewModel())
+extension GrooceryView {
+    func convertToBase64() -> String {
+
+        return vm.image?.jpegData(compressionQuality: 0.0)?.base64EncodedString() ?? ""
+
+        
+    }
+    
+    
+    func addGrooveToSalePlace() {
+        var salePlaceGroovery: SalePlaceGroocery = SalePlaceGroocery()
+        var salePlace = SalePlace()
+        salePlace.id = Int(salePlaceID)
+        salePlaceGroovery.salePlace = salePlace
+        salePlaceGroovery.salePlace?.id = Int(salePlaceID)
+        var groocery = Groocery()
+        groocery.price = Double(price)
+        groocery.type = type
+        groocery.name = name
+        groocery.picture = convertToBase64()
+        groocery.isSoldOut = false
+        salePlaceGroovery.groocery = groocery
+        self.network.addGroocery(groocery: salePlaceGroovery) {
+            res in
+            switch res {
+            case .failure(let faluire):
+                print(faluire.localizedDescription)
+            case.success(let success):
+                self.grooceyIsAddded = true
+            }
+        }
     }
 }

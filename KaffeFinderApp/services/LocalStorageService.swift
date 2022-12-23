@@ -68,4 +68,21 @@ public class  LocalStorageService {
     func getEmail() -> String {
         return         UserDefaults.standard.string(forKey: "e-mail")!
     }
+    
+    func setLatitude(lat: Double){
+        UserDefaults.standard.set(lat, forKey: "latitude")
+    }
+    
+    func setLongitude(lng: Double){
+        UserDefaults.standard.set(lng, forKey:  "longitude")
+    }
+    
+    func getUserLatitude()->Double {
+        return UserDefaults.standard.double(forKey: "latitude")
+    }
+    
+    func getUserLongitude() -> Double {
+        return UserDefaults.standard.double(forKey: "longitude")
+    }
+    
 }   

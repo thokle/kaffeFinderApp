@@ -13,24 +13,26 @@ struct SalePlacDetailsView: View {
     @State var salePlace:SalePlace
     @State var closeShop:Bool = false
     @State var openShop:Bool = false
+
     @State var shopIsOpen:Bool = false
     @State var shopIsClosed: Bool = false
     @State var netWork: NetWorkService = NetWorkService()
-    @State var location: LocationManager = LocationManager()
+    @State var latitude: Double = 0
+    @State var longitude: Double = 0
+    @StateObject var location: LocationManager = LocationManager()
     
     var userLatitude: String {
-        return "\(location.lastLocation?.coordinate.latitude ?? 0)"
+        return "\(location.location?.coordinate.latitude ?? 0)"
     }
     
     var userLongitude: String {
-        return "\(location.lastLocation?.coordinate.longitude ?? 0)"
+        return "\(location.location?.coordinate.longitude ?? 0)"
     }
+    
     var body: some View {
-        HStack {
-            Text(salePlace.type ??  "NO TYPE")
-            Text(salePlace.name ?? "No Name")
-            
-        }
+        
+        Text("Hello")
+        
         VStack{
             Spacer()
             
@@ -38,34 +40,31 @@ struct SalePlacDetailsView: View {
                 Button(action: openGrooceryList) {
                     Text("Show Grooceries")
                 }.sheet(isPresented: $showGroocery) {
-                    GrooceryListView()
+                    GrooceryListView(saelPlaceId: salePlace.id ?? 0)
                 }.buttonStyle(.bordered)
                 Button(action: addGroocery) {
                     Text("Add Groocery")
-                    GrooceryView(salePlaceID: "0")
+                    
                 }.sheet(isPresented: $addDetails) {
-                    }.buttonStyle(.bordered)
+                    GrooceryView(salePlaceID:  String( salePlace.id ?? 0 ))
+                    
+                }.buttonStyle(.bordered)
                 
             }
-            Toggle("OpenScop", isOn: $openShop).onChange(of: openShop) { value in
-                print(value)
-                if value {
+            VStack {
+                Button("Open shop") {
                     open(id: salePlace.id ?? 0)
-                } else {
+                }
+                Button("Close shop") {
                     close(id: salePlace.id ?? 0)
                 }
-                
-                
-            }
-          
-            
+            }.font(.title)
         }
         
+    }
         
     }
-}
-            
-
+    
     
     struct SalePlacDetailsView_Previews: PreviewProvider {
         static var previews: some View {

@@ -13,7 +13,7 @@ struct PlaceListView: View {
     var body: some View {
        
         List(places, id: \.id) {
-           SalePlacDetailsView(salePlace: $0)
+            SalePlacDetailsView(salePlace: $0)
         }.onAppear(perform:loadSalePlaces)
     }
 }

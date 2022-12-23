@@ -7,7 +7,7 @@
 
 import Foundation
 import CoreLocation
-
+import MapKit
 
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     
@@ -15,6 +15,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
   
     @Published var locationStatus: CLAuthorizationStatus?
     @Published var lastLocation: CLLocation?
+    @Published var region = MKCoordinateRegion()
     
     override init() {
         super.init()
@@ -44,10 +45,14 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
             print(#function, statusString)
         }
         
-        func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-            guard let location = locations.last else { return }
-            lastLocation = location
-            print(#function, location)
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+            locations.last.map {
+                region = MKCoordinateRegion(
+                    center: CLLocationCoordinate2D(latitude: $0.coordinate.latitude, longitude: $0.coordinate.longitude),
+                    span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5)
+                )
+                lastLocation = CLLocation(latitude: $0.coordinate.latitude, longitude: $0.coordinate.longitude)
+            }
         }
     
     

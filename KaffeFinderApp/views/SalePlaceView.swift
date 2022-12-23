@@ -12,18 +12,22 @@ struct SalePlaceView: View {
     @State var name:String = ""
     @State var suscess:Bool = false
     @State var faliure:Bool = false
-    @StateObject var location: LocationManager = LocationManager()
+    @State var latitude: Double = 0
+    @State var longtitude: Double = 0
+    @ObservedObject var location: LocationManager = LocationManager()
     
     
-     var userLatitude: String {
-         return "\(location.lastLocation?.coordinate.latitude ?? 0)"
-     }
-     
-     var userLongitude: String {
-         return "\(location.lastLocation?.coordinate.longitude ?? 0)"
-     }
+   
     @State var netWork: NetWorkService = NetWorkService()
-    
+    func setCurrentLocation() {
+        location.$location.sink {
+            location in
+            self.latitude = location?.coordinate.latitude ?? 0
+            self.longtitude = location?.coordinate.longitude ?? 0
+            
+            
+        }
+    }
     var body: some View {
         
         Form {
@@ -41,6 +45,8 @@ struct SalePlaceView: View {
                 }
                 
             }
+        }.onAppear {
+            setCurrentLocation()
         }
     }
 }
@@ -56,8 +62,8 @@ struct SalePlaceView: View {
         
         func createSalePlace() {
             var salePlce: SalePlace = SalePlace()
-            salePlce.lat = Double(userLatitude)
-            salePlce.lat = Double(userLongitude)
+            salePlce.lat = self.latitude
+            salePlce.lng = self.longtitude
             salePlce.name = name
             salePlce.type = type
             salePlce.isClosed = false

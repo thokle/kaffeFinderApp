@@ -11,11 +11,11 @@ import Foundation
 public class NetWorkService: NSObject {
     
     //ad-scoop.com
-    var ip = "http://192.168.2.247"
+    var ip = "http://ad-scoop.com"
     var port = "8889"
     
     func getAllOpenSalePlaces(complietion: @escaping (Result<[SalePlace]?, Error>)->Void) {
-        guard let url = URL(string: "\(ip):\(port)/sale/allclose") else {
+        guard let url = URL(string: "\(ip):\(port)/sale/allopen") else {
             print("Invalid Url"); return
         }
         
@@ -140,12 +140,14 @@ public class NetWorkService: NSObject {
     }
     
     func addGroocery(groocery: SalePlaceGroocery, completion: @escaping (Result<Groocery?, Error>)->Void){
-        guard let url = URL(string: "\(ip):\(port)/user/logim") else {
+        guard let url = URL(string: "\(ip):\(port)/groocery/addGroocery") else {
             print("Invalid Url"); return
         }
         
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "Accept")
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         let body = try! JSONEncoder().encode(groocery)
         request.httpBody = body
         URLSession.shared.dataTask(with: request) {
@@ -189,6 +191,7 @@ public class NetWorkService: NSObject {
                     completion(.success(res))
                 }
             } catch let jsonError {
+                print(jsonError.localizedDescription)
                 completion(.failure(jsonError.localizedDescription as! Error))
             }
         }.resume()
@@ -372,6 +375,35 @@ public class NetWorkService: NSObject {
             
             
         }.resume()
+        
+    }
+    
+    
+    func getGrooceryBySalePlace(salePlace:Int, completiom: @escaping (Result<[Groocery], Error>)->Void) {
+        guard let url = URL(string: "\(ip):\(port)/groocery/byPlace/\(salePlace)") else {
+            return
+          
+        }
+        
+        var request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData)
+        request.setValue("application/json", forHTTPHeaderField: "Accept")
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+     
+        request.httpMethod = "GET"
+        
+        URLSession.shared.dataTask(with: request) {
+            (data, response,error) in
+            do {
+                var response = try JSONDecoder().decode([Groocery].self, from: data!)
+                DispatchQueue.main.async {
+                    completiom(.success(response))
+                }
+            }catch let jsonError {
+                completiom(.failure(jsonError.localizedDescription as! Error))
+            }
+            
+        }.resume()
+        
         
     }
 }
