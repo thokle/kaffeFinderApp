@@ -13,7 +13,7 @@ struct GrooceryListView: View {
     @State var grooceries:[Groocery] = [Groocery]()
     var body: some View {
         List(grooceries, id: \.id){
-            GrooceriesDetailsView(groocery: $0)
+            GrooceriesDetailsView(groocery: $0, admin: true)
         }.onAppear(perform: loadGroocerisForSalePlace)
     }
 }

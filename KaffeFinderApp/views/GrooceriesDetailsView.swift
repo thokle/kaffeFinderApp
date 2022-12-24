@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GrooceriesDetailsView: View {
     @State var groocery:Groocery
-    
+    @State var admin:Bool = false
     var body: some View {
         VStack{
             if (!groocery.isSoldOut!) {
@@ -24,8 +24,10 @@ struct GrooceriesDetailsView: View {
                     Text(groocery.name ?? "No Name")
                     Text(groocery.type ?? "No Type")
                     Text(groocery.price ?? 0 , format: .number)
-                    Button(action: setSoldOut) {
-                        Text("Set SoldOut")
+                    if (admin) {
+                        Button(action: setSoldOut) {
+                            Text("Set SoldOut")
+                        }
                     }
                     
                 }

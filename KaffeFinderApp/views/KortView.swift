@@ -22,8 +22,8 @@ struct KortView: View {
             res in
             region.center.longitude =  res?.coordinate.longitude ?? 0
             region.center.latitude = res?.coordinate.latitude ?? 0
-            region.span.latitudeDelta =  0.5
-            region.span.longitudeDelta = 0.5
+            region.span.latitudeDelta =  5
+            region.span.longitudeDelta = 5
             print("view \(res?.coordinate.latitude) \(res?.coordinate.longitude)")
         }
     }
@@ -50,17 +50,20 @@ struct KortView: View {
                 VStack(alignment: .center)  {
                    // TextField("Search", text: $search).textFieldStyle(.roundedBorder)(.white)
                 }
-                Map(coordinateRegion: $region, annotationItems: annotations ?? []) { res in
+                Map(coordinateRegion: $region, showsUserLocation: true , annotationItems: annotations ?? []) { res in
+                  
                     MapAnnotation(coordinate: res.coordinate!) {
-                        Text("Hello").backgroundStyle(.yellow).foregroundColor(.white)
+                        KortSalePlaceDetails(type: res.type, name: res.name, salePlaceId: res.saleId)
                     }
+                   
                 }
                       
                     
            
                 VStack(alignment: .center) {
-                    Button("Get Open Shops") {
-                        
+                    Button("Set Current Location") {
+                        region.center.latitude = locationManager.location?.coordinate.latitude ?? 55.765188736242244
+                        region.center.longitude = locationManager.location?.coordinate.longitude ?? 12.43877862656797
                     }.buttonStyle(.bordered).frame(width: 160, height: 23, alignment: .center)
                     
                 }
@@ -75,7 +78,7 @@ struct KortView: View {
             setCurrentLocation()
             setSalePlaceAnnotations()
            
-        }
+        }.background(Color(.blue))
     }
 }
 

@@ -13,5 +13,7 @@ struct SaleCoordinates: Identifiable {
     var id =  UUID()
     var coordinate: CLLocationCoordinate2D?
     var saleId: Int?
+    var name: String?
+    var type: String?
     
 }

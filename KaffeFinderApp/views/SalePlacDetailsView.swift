@@ -30,35 +30,36 @@ struct SalePlacDetailsView: View {
     }
     
     var body: some View {
-        
-        Text("Hello")
-        
-        VStack{
-            Spacer()
+        VStack(alignment: .leading){
+       
+            Text(salePlace.name ?? "No Name").border(.shadow(.inner(radius: -1)))
+            Text(salePlace.type ?? "No Type")
+
             
             HStack {
                 Button(action: openGrooceryList) {
                     Text("Show Grooceries")
                 }.sheet(isPresented: $showGroocery) {
                     GrooceryListView(saelPlaceId: salePlace.id ?? 0)
-                }.buttonStyle(.bordered)
+                }.buttonStyle(.bordered).padding()
                 Button(action: addGroocery) {
                     Text("Add Groocery")
                     
                 }.sheet(isPresented: $addDetails) {
                     GrooceryView(salePlaceID:  String( salePlace.id ?? 0 ))
                     
-                }.buttonStyle(.bordered)
+                }.buttonStyle(.bordered).frame(width: 150, height: 30)
                 
             }
-            VStack {
+            HStack {
                 Button("Open shop") {
                     open(id: salePlace.id ?? 0)
-                }
+                }.buttonStyle(.bordered).frame(width: 150,height: 30)
+                
                 Button("Close shop") {
                     close(id: salePlace.id ?? 0)
-                }
-            }.font(.title)
+                }.buttonStyle(.bordered).frame(width: 150, height: 30)
+            }
         }
         
     }

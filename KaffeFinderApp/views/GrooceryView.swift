@@ -19,13 +19,13 @@ struct GrooceryView: View {
     var body: some View {
         
         
-        HStack {
-            
-            TextField("Name", text: $name)
-            TextField("Type", text: $type)
-            TextField("Price", text: $price)
+        VStack(alignment: .trailing) {
+   
+            TextField("Name", text: $name).backgroundStyle(.gray)
+            TextField("Type", text: $type).backgroundStyle(.gray)
+            TextField("Price", text: $price).backgroundStyle(.gray)
         }
-        VStack {
+        HStack {
             Button {
                 vm.source = .camera
                 vm.showPhotoPicker()

@@ -49,6 +49,7 @@
 		F76823EF294A0D62008CD9B8 /* ObserservedFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76823EE294A0D62008CD9B8 /* ObserservedFactory.swift */; };
 		F795A5152928C3340008F3F6 /* AddGrooceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795A5142928C3340008F3F6 /* AddGrooceryView.swift */; };
 		F7A54E39295386410021CF71 /* GrooceriesDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A54E38295386410021CF71 /* GrooceriesDetailsView.swift */; };
+		F7B39A6629563DB3008DC6DD /* KortSalePlaceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B39A6529563DB3008DC6DD /* KortSalePlaceDetails.swift */; };
 		F7D682332944897000DBF066 /* AnnotationObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D682312944897000DBF066 /* AnnotationObservable.swift */; };
 		F7D682342944897000DBF066 /* KafkaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D682322944897000DBF066 /* KafkaService.swift */; };
 		F7D6823C2944D74100DBF066 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D6823B2944D74100DBF066 /* Coordinator.swift */; };
@@ -103,6 +104,7 @@
 		F76823EE294A0D62008CD9B8 /* ObserservedFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserservedFactory.swift; sourceTree = "<group>"; };
 		F795A5142928C3340008F3F6 /* AddGrooceryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGrooceryView.swift; sourceTree = "<group>"; };
 		F7A54E38295386410021CF71 /* GrooceriesDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrooceriesDetailsView.swift; sourceTree = "<group>"; };
+		F7B39A6529563DB3008DC6DD /* KortSalePlaceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KortSalePlaceDetails.swift; sourceTree = "<group>"; };
 		F7D682312944897000DBF066 /* AnnotationObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationObservable.swift; sourceTree = "<group>"; };
 		F7D682322944897000DBF066 /* KafkaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KafkaService.swift; sourceTree = "<group>"; };
 		F7D6823B2944D74100DBF066 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				F795A5142928C3340008F3F6 /* AddGrooceryView.swift */,
 				F7DB42172946669300C875F0 /* KortView.swift */,
 				F7A54E38295386410021CF71 /* GrooceriesDetailsView.swift */,
+				F7B39A6529563DB3008DC6DD /* KortSalePlaceDetails.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				F71CC5822900813000755BA2 /* AddAddresse.swift in Sources */,
 				F71CC4F4290079A200755BA2 /* SalePlace.swift in Sources */,
 				F71CC5802900813000755BA2 /* SalePlacDetailsView.swift in Sources */,
+				F7B39A6629563DB3008DC6DD /* KortSalePlaceDetails.swift in Sources */,
 				F71CC51629007A5900755BA2 /* TimerUpdateMap.swift in Sources */,
 				F7DB421A2946679500C875F0 /* MKCoordinatRegion+Extension.swift in Sources */,
 				F7D682342944897000DBF066 /* KafkaService.swift in Sources */,
