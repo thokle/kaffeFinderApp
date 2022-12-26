@@ -44,6 +44,7 @@
 		F71D2EF72958EF3D001AED84 /* BaseImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D2EF62958EF3D001AED84 /* BaseImage.swift */; };
 		F737C9D3290C6F4A002E02A7 /* GrooceryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737C9D2290C6F4A002E02A7 /* GrooceryListView.swift */; };
 		F7497E07290869A400C0506E /* LoginObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7497E06290869A400C0506E /* LoginObservable.swift */; };
+		F75BE697295A2F3C0059DC30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75BE696295A2F3C0059DC30 /* ContentView.swift */; };
 		F76823EA2949130F008CD9B8 /* SalePlacesObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76823E92949130F008CD9B8 /* SalePlacesObservable.swift */; };
 		F76823ED294A03F9008CD9B8 /* SaleItemObservale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76823EC294A03F9008CD9B8 /* SaleItemObservale.swift */; };
 		F76823EF294A0D62008CD9B8 /* ObserservedFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76823EE294A0D62008CD9B8 /* ObserservedFactory.swift */; };
@@ -83,7 +84,6 @@
 		F71CC51229007A5900755BA2 /* IObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IObserver.swift; sourceTree = "<group>"; };
 		F71CC51329007A5900755BA2 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		F71CC51529007A5900755BA2 /* LocalStorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorageService.swift; sourceTree = "<group>"; };
-		F71CC56429007C2E00755BA2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../findfoodtruck/findfoodtruck/ContentView.swift; sourceTree = "<group>"; };
 		F71CC56C2900812F00755BA2 /* GrooceryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrooceryView.swift; sourceTree = "<group>"; };
 		F71CC56D2900812F00755BA2 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F71CC56E2900812F00755BA2 /* SalePlaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalePlaceView.swift; sourceTree = "<group>"; };
@@ -100,6 +100,7 @@
 		F71D2EF62958EF3D001AED84 /* BaseImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseImage.swift; sourceTree = "<group>"; };
 		F737C9D2290C6F4A002E02A7 /* GrooceryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrooceryListView.swift; sourceTree = "<group>"; };
 		F7497E06290869A400C0506E /* LoginObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginObservable.swift; sourceTree = "<group>"; };
+		F75BE696295A2F3C0059DC30 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F76823E92949130F008CD9B8 /* SalePlacesObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalePlacesObservable.swift; sourceTree = "<group>"; };
 		F76823EC294A03F9008CD9B8 /* SaleItemObservale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleItemObservale.swift; sourceTree = "<group>"; };
 		F76823EE294A0D62008CD9B8 /* ObserservedFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserservedFactory.swift; sourceTree = "<group>"; };
@@ -152,7 +153,7 @@
 				F71CC4EA2900795100755BA2 /* models */,
 				F71CC4E92900794200755BA2 /* services */,
 				F71CC4B9290078D200755BA2 /* KaffeFinderAppApp.swift */,
-				F71CC56429007C2E00755BA2 /* ContentView.swift */,
+				F75BE696295A2F3C0059DC30 /* ContentView.swift */,
 				F71CC4BD290078D400755BA2 /* Assets.xcassets */,
 				F71CC4C2290078D400755BA2 /* Persistence.swift */,
 				F71CC4C7290078D400755BA2 /* Info.plist */,
@@ -336,6 +337,7 @@
 				F71CC4F7290079A200755BA2 /* Addresse.swift in Sources */,
 				F71CC57F2900813000755BA2 /* ViewModel.swift in Sources */,
 				F76823ED294A03F9008CD9B8 /* SaleItemObservale.swift in Sources */,
+				F75BE697295A2F3C0059DC30 /* ContentView.swift in Sources */,
 				F795A5152928C3340008F3F6 /* AddGrooceryView.swift in Sources */,
 				F71CC4FD290079A200755BA2 /* AddressSalePlace.swift in Sources */,
 				F7A54E39295386410021CF71 /* GrooceriesDetailsView.swift in Sources */,
