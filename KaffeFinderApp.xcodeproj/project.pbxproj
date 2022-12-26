@@ -42,6 +42,7 @@
 		F71CC5842900813000755BA2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5762900812F00755BA2 /* ImagePicker.swift */; };
 		F71CC5852900813000755BA2 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5772900812F00755BA2 /* UserView.swift */; };
 		F71CC5872900813000755BA2 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC5792900812F00755BA2 /* UserDetailsView.swift */; };
+		F71D2EF72958EF3D001AED84 /* BaseImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D2EF62958EF3D001AED84 /* BaseImage.swift */; };
 		F737C9D3290C6F4A002E02A7 /* GrooceryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737C9D2290C6F4A002E02A7 /* GrooceryListView.swift */; };
 		F7497E07290869A400C0506E /* LoginObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7497E06290869A400C0506E /* LoginObservable.swift */; };
 		F76823EA2949130F008CD9B8 /* SalePlacesObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76823E92949130F008CD9B8 /* SalePlacesObservable.swift */; };
@@ -97,6 +98,7 @@
 		F71CC5762900812F00755BA2 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		F71CC5772900812F00755BA2 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		F71CC5792900812F00755BA2 /* UserDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		F71D2EF62958EF3D001AED84 /* BaseImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseImage.swift; sourceTree = "<group>"; };
 		F737C9D2290C6F4A002E02A7 /* GrooceryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrooceryListView.swift; sourceTree = "<group>"; };
 		F7497E06290869A400C0506E /* LoginObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginObservable.swift; sourceTree = "<group>"; };
 		F76823E92949130F008CD9B8 /* SalePlacesObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalePlacesObservable.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				F71CC51129007A5900755BA2 /* ZoomableScrollView.swift */,
 				F7497E06290869A400C0506E /* LoginObservable.swift */,
 				F76823E92949130F008CD9B8 /* SalePlacesObservable.swift */,
+				F71D2EF62958EF3D001AED84 /* BaseImage.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				F71CC5872900813000755BA2 /* UserDetailsView.swift in Sources */,
 				F71CC57A2900813000755BA2 /* GrooceryView.swift in Sources */,
 				F7497E07290869A400C0506E /* LoginObservable.swift in Sources */,
+				F71D2EF72958EF3D001AED84 /* BaseImage.swift in Sources */,
 				F71CC52829007A5900755BA2 /* LocalStorageService.swift in Sources */,
 				F71CC5842900813000755BA2 /* ImagePicker.swift in Sources */,
 				F71CC5812900813000755BA2 /* AddressView.swift in Sources */,
@@ -505,6 +509,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KaffeFinderApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses camera to enhance experince";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app uses location when in use";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -538,6 +545,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KaffeFinderApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses camera to enhance experince";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app uses location when in use";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

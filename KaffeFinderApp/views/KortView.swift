@@ -53,7 +53,7 @@ struct KortView: View {
                 Map(coordinateRegion: $region, showsUserLocation: true , annotationItems: annotations ?? []) { res in
                   
                     MapAnnotation(coordinate: res.coordinate!) {
-                        KortSalePlaceDetails(type: res.type, name: res.name, salePlaceId: res.saleId)
+                        KortSalePlaceDetails(type: res.type, name: res.name, salePlaceId: res.saleId, pitcure: res.picture)
                     }
                    
                 }

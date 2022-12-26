@@ -64,7 +64,7 @@ class KafkaService: NSObject {
         
         salePlaces.forEach { res in
         
-            saleCoordinates.append( SaleCoordinates(coordinate: CLLocationCoordinate2D(latitude: res.lat ?? 0, longitude: res.lng ?? 0), saleId: res.id, name: res.name, type: res.type))
+            saleCoordinates.append( SaleCoordinates(coordinate: CLLocationCoordinate2D(latitude: res.lat ?? 0, longitude: res.lng ?? 0), saleId: res.id, name: res.name, type: res.type, picture: res.picture))
           
            
         }

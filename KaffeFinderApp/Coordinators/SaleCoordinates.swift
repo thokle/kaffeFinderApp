@@ -15,5 +15,6 @@ struct SaleCoordinates: Identifiable {
     var saleId: Int?
     var name: String?
     var type: String?
+    var picture:String?
     
 }

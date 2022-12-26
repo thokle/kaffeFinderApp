@@ -15,7 +15,7 @@ struct SalePlaceView: View {
     @State var latitude: Double = 0
     @State var longtitude: Double = 0
     @ObservedObject var location: LocationManager = LocationManager()
-    
+    @EnvironmentObject var vm: ViewModel
     
    
     @State var netWork: NetWorkService = NetWorkService()
@@ -34,15 +34,45 @@ struct SalePlaceView: View {
             VStack {
                 TextField("Type", text: $type)
                 TextField("Name", text: $name)
+                if let image = vm.image {
+                    ZoomableScrollView {
+                        Image(uiImage: image)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(minWidth: 0, maxWidth: .infinity)
+                    }
+                } else {
+                    Image(systemName: "photo.fill")
+                        .resizable()
+                        .scaledToFit()
+                        .opacity(0.6)
+                        .frame(minWidth: 4, maxWidth: .infinity)
+                        .padding(.horizontal)
+                }
             }
             HStack {
+                Button {
+                    vm.source = .camera
+                    vm.showPhotoPicker()
+                } label: {
+                    Text("Camera").font(.caption)
+                }.buttonStyle(.bordered)
+                Button {
+                    vm.source = .library
+                    vm.showPhotoPicker()
+                } label: {
+                    Text("Photoalbum").font(.caption)
+                }.buttonStyle(.bordered)
                 Button(action: createSalePlace) {
-                    Text("Add salePlace")
+                    Text("Add salePlace").font(.caption)
                 }.alert("SalePlace added", isPresented: $suscess) {
-                    Text("")
+                    Text("SalePlace Is Added")
                 }.alert("Fejl", isPresented: $faliure) {
-                    Text("")
-                }
+                    Text("There was an Error")
+                }.buttonStyle(.bordered)
+              
+            }.sheet(isPresented: $vm.showPicker) {
+                ImagePicker(sourceType: vm.source == .library ? .photoLibrary : .camera, selectedImage: $vm.image)
                 
             }
         }.onAppear {
@@ -59,7 +89,12 @@ struct SalePlaceView: View {
     
     extension SalePlaceView {
         
-        
+        func convertToBase64() -> String {
+
+            return vm.image?.jpegData(compressionQuality: 0.0)?.base64EncodedString() ?? BaseImage().getBaseImage()
+
+            
+        }
         func createSalePlace() {
             var salePlce: SalePlace = SalePlace()
             salePlce.lat = self.latitude
@@ -67,6 +102,7 @@ struct SalePlaceView: View {
             salePlce.name = name
             salePlce.type = type
             salePlce.isClosed = false
+            salePlce.picture = convertToBase64()
             netWork.addSalePlaceToUser(salePlace: salePlce, id:String( LocalStorageService().getUserId())) {
                 (res) in
                 switch res {

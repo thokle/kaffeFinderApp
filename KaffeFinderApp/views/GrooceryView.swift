@@ -18,7 +18,7 @@ struct GrooceryView: View {
     @State var grooceyIsAddded = false
     var body: some View {
         
-        
+      
         VStack(alignment: .trailing) {
    
             TextField("Name", text: $name).backgroundStyle(.gray)
@@ -42,7 +42,9 @@ struct GrooceryView: View {
                 addGrooveToSalePlace()
             } label: {
                 Text("Add groocery")
-            }
+            }.alert("Groocery is added", isPresented: $grooceyIsAddded) {
+                
+            }.foregroundColor(.red)
             
             
             if let image = vm.image {
@@ -82,7 +84,7 @@ struct GrooceryView: View {
 extension GrooceryView {
     func convertToBase64() -> String {
 
-        return vm.image?.jpegData(compressionQuality: 0.0)?.base64EncodedString() ?? ""
+        return vm.image?.jpegData(compressionQuality: 0.0)?.base64EncodedString() ?? BaseImage().getBaseImage()
 
         
     }

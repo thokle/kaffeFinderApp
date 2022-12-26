@@ -14,25 +14,36 @@ struct KortSalePlaceDetails: View {
     @State var salePlaceId: Int?
     @State var netWork:NetWorkService = NetWorkService()
     @State var showGrooceries: Bool = false
+
+    @State var showSalePlace: Bool = false
+    @State var pitcure:String?
     @State var list:[Groocery] = [Groocery]()
     var body: some View {
         HStack {
-           Text("SalePlace ID  \(salePlaceId ?? 0)")
-            Button(action: show) {
+            Button(action: viewSalePlace) {
                 Label("show", systemImage: "house")
             }
            
-        }.sheet(isPresented: $showGrooceries) {
+        }.sheet(isPresented: $showSalePlace) {
             VStack {
                 Text(type ?? "")
                 Text(name ?? "")
-                List(list, id: \.id){
-                    GrooceriesDetailsView(groocery: $0, admin: false)
-                }.onAppear(perform: getGrooceriesForSalePlace)
+                Image(uiImage: getImage(groovery: pitcure ?? BaseImage().getBaseImage()))
+                    .resizable()
+                    .scaledToFit()
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                Button(action: viewSalePlace) {
+                    Label("show", systemImage: "house.fill")
+                }
+            }
+                }.onAppear(perform: getGrooceriesForSalePlace).sheet(isPresented: $showGrooceries) {
+                    List(list, id: \.id){
+                        GrooceriesDetailsView(groocery: $0, admin: false)
+                }
             }
         }
     }
-}
+
 
 struct KortSalePlaceDetails_Previews: PreviewProvider {
     static var previews: some View {
@@ -42,6 +53,22 @@ struct KortSalePlaceDetails_Previews: PreviewProvider {
 
 extension KortSalePlaceDetails {
     
+    
+    func getImage(groovery: String) -> UIImage {
+        
+        guard let imageData =  Data(base64Encoded: groovery ) else {
+            return UIImage(named: "")!
+        }
+        
+        return UIImage(data:imageData)!
+        
+        
+    }
+    
+    func viewSalePlace() {
+        showSalePlace = true
+
+    }
     func show() {
         showGrooceries = true
     }

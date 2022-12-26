@@ -15,6 +15,7 @@ struct SalePlace: Codable {
     var   isClosed:Bool?;
     var     lat:Double?;
     var     lng:Double?;
+    var picture:String?
     var position:[Position]?
     var groocerySet:[Groocery]?
    
