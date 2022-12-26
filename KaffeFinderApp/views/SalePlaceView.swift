@@ -83,7 +83,7 @@ struct SalePlaceView: View {
     
     struct SalePlaceView_Previews: PreviewProvider {
         static var previews: some View {
-            SalePlaceView(location: LocationManager())
+            SalePlaceView(location: LocationManager()).environmentObject(ViewModel())
         }
     }
     
