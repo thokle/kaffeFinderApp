@@ -20,6 +20,34 @@
                ReferencedContainer = "container:KaffeFinderApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F71CC4CB290078D500755BA2"
+               BuildableName = "KaffeFinderAppTests.xctest"
+               BlueprintName = "KaffeFinderAppTests"
+               ReferencedContainer = "container:KaffeFinderApp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F71CC4D5290078D500755BA2"
+               BuildableName = "KaffeFinderAppUITests.xctest"
+               BlueprintName = "KaffeFinderAppUITests"
+               ReferencedContainer = "container:KaffeFinderApp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -28,28 +56,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F71CC4CB290078D500755BA2"
-               BuildableName = "KaffeFinderAppTests.xctest"
-               BlueprintName = "KaffeFinderAppTests"
-               ReferencedContainer = "container:KaffeFinderApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F71CC4D5290078D500755BA2"
-               BuildableName = "KaffeFinderAppUITests.xctest"
-               BlueprintName = "KaffeFinderAppUITests"
-               ReferencedContainer = "container:KaffeFinderApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

@@ -28,7 +28,6 @@
 		F71CC51F29007A5900755BA2 /* IObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51229007A5900755BA2 /* IObserver.swift */; };
 		F71CC52229007A5900755BA2 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51329007A5900755BA2 /* Subject.swift */; };
 		F71CC52829007A5900755BA2 /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC51529007A5900755BA2 /* LocalStorageService.swift */; };
-		F71CC56529007C2E00755BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC56429007C2E00755BA2 /* ContentView.swift */; };
 		F71CC57A2900813000755BA2 /* GrooceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC56C2900812F00755BA2 /* GrooceryView.swift */; };
 		F71CC57B2900813000755BA2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC56D2900812F00755BA2 /* LoginView.swift */; };
 		F71CC57C2900813000755BA2 /* SalePlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CC56E2900812F00755BA2 /* SalePlaceView.swift */; };
@@ -343,7 +342,6 @@
 				F71CC51C29007A5900755BA2 /* ZoomableScrollView.swift in Sources */,
 				F71CC4C3290078D400755BA2 /* Persistence.swift in Sources */,
 				F71CC57B2900813000755BA2 /* LoginView.swift in Sources */,
-				F71CC56529007C2E00755BA2 /* ContentView.swift in Sources */,
 				F71CC5832900813000755BA2 /* PlaceListView.swift in Sources */,
 				F737C9D3290C6F4A002E02A7 /* GrooceryListView.swift in Sources */,
 				F71CC5822900813000755BA2 /* AddAddresse.swift in Sources */,
@@ -436,7 +434,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -490,6 +488,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
