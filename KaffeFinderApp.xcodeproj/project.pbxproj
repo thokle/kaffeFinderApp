@@ -48,7 +48,6 @@
 		F76823EA2949130F008CD9B8 /* SalePlacesObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76823E92949130F008CD9B8 /* SalePlacesObservable.swift */; };
 		F76823ED294A03F9008CD9B8 /* SaleItemObservale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76823EC294A03F9008CD9B8 /* SaleItemObservale.swift */; };
 		F76823EF294A0D62008CD9B8 /* ObserservedFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76823EE294A0D62008CD9B8 /* ObserservedFactory.swift */; };
-		F795A5152928C3340008F3F6 /* AddGrooceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795A5142928C3340008F3F6 /* AddGrooceryView.swift */; };
 		F7A54E39295386410021CF71 /* GrooceriesDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A54E38295386410021CF71 /* GrooceriesDetailsView.swift */; };
 		F7B39A6629563DB3008DC6DD /* KortSalePlaceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B39A6529563DB3008DC6DD /* KortSalePlaceDetails.swift */; };
 		F7D682332944897000DBF066 /* AnnotationObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D682312944897000DBF066 /* AnnotationObservable.swift */; };
@@ -104,7 +103,6 @@
 		F76823E92949130F008CD9B8 /* SalePlacesObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalePlacesObservable.swift; sourceTree = "<group>"; };
 		F76823EC294A03F9008CD9B8 /* SaleItemObservale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleItemObservale.swift; sourceTree = "<group>"; };
 		F76823EE294A0D62008CD9B8 /* ObserservedFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserservedFactory.swift; sourceTree = "<group>"; };
-		F795A5142928C3340008F3F6 /* AddGrooceryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGrooceryView.swift; sourceTree = "<group>"; };
 		F7A54E38295386410021CF71 /* GrooceriesDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrooceriesDetailsView.swift; sourceTree = "<group>"; };
 		F7B39A6529563DB3008DC6DD /* KortSalePlaceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KortSalePlaceDetails.swift; sourceTree = "<group>"; };
 		F7D682312944897000DBF066 /* AnnotationObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationObservable.swift; sourceTree = "<group>"; };
@@ -224,7 +222,6 @@
 				F71CC5712900812F00755BA2 /* ViewModel.swift */,
 				F737C9D2290C6F4A002E02A7 /* GrooceryListView.swift */,
 				F719F8A829210AC900A6DA3F /* AddressDetailsView.swift */,
-				F795A5142928C3340008F3F6 /* AddGrooceryView.swift */,
 				F7DB42172946669300C875F0 /* KortView.swift */,
 				F7A54E38295386410021CF71 /* GrooceriesDetailsView.swift */,
 				F7B39A6529563DB3008DC6DD /* KortSalePlaceDetails.swift */,
@@ -338,7 +335,6 @@
 				F71CC57F2900813000755BA2 /* ViewModel.swift in Sources */,
 				F76823ED294A03F9008CD9B8 /* SaleItemObservale.swift in Sources */,
 				F75BE697295A2F3C0059DC30 /* ContentView.swift in Sources */,
-				F795A5152928C3340008F3F6 /* AddGrooceryView.swift in Sources */,
 				F71CC4FD290079A200755BA2 /* AddressSalePlace.swift in Sources */,
 				F7A54E39295386410021CF71 /* GrooceriesDetailsView.swift in Sources */,
 				F71CC51C29007A5900755BA2 /* ZoomableScrollView.swift in Sources */,

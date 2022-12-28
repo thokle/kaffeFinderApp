@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "422-4222617_store-clipart-transparent-shop-close-clipart.png.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,88 +1,121 @@
 //
 //  ContentView.swift
-//  KaffeFinderApp
+//  findfoodtruck
 //
-//  Created by Thomas Kleist on 19/10/2022.
+//  Created by Thomas Kleist on 03/09/2022.
 //
 
 import SwiftUI
 import CoreData
 
 struct ContentView: View {
-    @Environment(\.managedObjectContext) private var viewContext
+    
+    @State var network = NetWorkService()
 
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
-        animation: .default)
-    private var items: FetchedResults<Item>
-
+    @State var username:String = ""
+    @State var password:String = ""
+    @State var loginSuccess: Bool = false
+    @State var userIsNotLoggedIn: Bool = false
+    @ObservedObject var loginObject: LoginObservable = LoginObservable()
+  
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
+        
+        TabView {
+           
+            if(!loginSuccess){
+           
+                VStack {
+                    Form {
+                        TextField("Username", text: $username).padding(3).backgroundStyle(.mint)
+                        SecureField("Password", text: $password).padding(3)
+                        HStack {
+                            Button(action: Login){
+                                Text("Login")
+                            }.alert( "Failed to Login", isPresented: $userIsNotLoggedIn) {
+                                Text("Wrong credentials")
+                            }.buttonStyle(.bordered)
+                            Button(action: cancel) {
+                                Text("Cancel")
+                            }.buttonStyle(.borderedProminent)
+                        }
                     }
+                }.tabItem {
+                    Label("Logon", systemImage: "key")
                 }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
+                UserView().tabItem {
+                    Label("Create User", systemImage: "person")
+                    
                 }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                KortView().tabItem {
+                    Label("Map", systemImage: "map")
+                }
+                }
+         
+            if(loginSuccess){
+              
+                    Button(action: logOut){
+                        Text("Logout")
+                          
+                        
+                    }.tabItem {
+                        Label("Logout", systemImage: "key.fill")
                     }
+              
+                UserDetailsView().padding([.top, .leading]).tabItem {
+                    Label("User detailes", systemImage: "person")
                 }
-            }
-            Text("Select an item")
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+              
+                PlaceListView().tabItem {
+                    Label("List Saleplaces", systemImage: "house")
+                }
+            
+                SalePlaceView().tabItem{
+                    Label("Add SalePlaces", systemImage: "plus")
+                }
             }
         }
     }
 }
-
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
+
+extension ContentView {
+  
+    func Login() {
+    
+        network.logion(username: self.username, password: self.password){
+            (resultat) in
+            switch resultat {
+            case .failure(let error):
+                print(error)
+                self.userIsNotLoggedIn = true
+            case .success(let data):
+                if data?.firstname?.compare("NOT EXCIST") == .orderedSame  {
+                    userIsNotLoggedIn = true
+                }
+                else if data?.username != nil {
+                    loginSuccess = true
+                    LocalStorageService().saveUserId(user: data!)
+                    LocalStorageService().setEmail(email: data?.email ?? "")
+                    LocalStorageService().setUserame(username: data?.username ?? "")
+                }
+                else {
+                    userIsNotLoggedIn = true
+                }
+            }
+
+        }
+    }
+    
+    func logOut() {
+        loginSuccess = false
+    }
+    
+    func cancel() {
+        
+    }
+}
+

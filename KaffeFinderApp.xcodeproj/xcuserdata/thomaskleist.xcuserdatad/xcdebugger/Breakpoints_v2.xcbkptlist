@@ -189,9 +189,9 @@
             filePath = "KaffeFinderApp/views/SalePlacDetailsView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "open(id:)"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "open()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -205,9 +205,9 @@
             filePath = "KaffeFinderApp/views/SalePlacDetailsView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
-            landmarkName = "open(id:)"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "open()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -712,9 +712,9 @@
             filePath = "KaffeFinderApp/views/SalePlacDetailsView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
-            landmarkName = "open(id:)"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "open()"
             landmarkType = "7">
             <Locations>
                <Location
@@ -760,9 +760,9 @@
             filePath = "KaffeFinderApp/views/SalePlacDetailsView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "open(id:)"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "open()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -840,8 +840,8 @@
             filePath = "KaffeFinderApp/views/SalePlacDetailsView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>

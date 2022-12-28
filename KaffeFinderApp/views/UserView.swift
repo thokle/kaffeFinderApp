@@ -32,20 +32,20 @@ struct UserView: View {
                 TextField("Firstname", text: $firstname).padding(1)
                 TextField("Lastname", text: $lastname).padding(1)
                 TextField("Username", text: $username).padding(1)
-                TextField("E-mail", text: $email).padding().onTapGesture {
+                TextField("E-mail", text: $email).padding(1).onTapGesture {
                     doesEmailExcist()
                 }.alert("E-mail exist", isPresented: $emailExist) {
                     Text("E-mail address does already exist")
                 }
-                SecureField("Password", text: $password).padding().cornerRadius(/*@START_MENU_TOKEN@*/4.0/*@END_MENU_TOKEN@*/)
-                SecureField("Repeat Password", text: $repeatPassword).padding().alert("Password matcher ikke", isPresented: $passwordNotSame) {}
+                SecureField("Password", text: $password).padding(1)
+                SecureField("Repeat Password", text: $repeatPassword).padding(1).alert("Password matcher ikke", isPresented: $passwordNotSame) {}
                 
                 HStack {
                     Button(action: createUser) {
                         Text("Opret Bruger")
-                    }.padding()
-                        .background(Color(red: 0, green: 0, blue: 0.5))
-                        .clipShape(Capsule()).alert("Bruger Oprettet", isPresented: $isCreated) {
+                    }
+                    .background(Color(red: 0, green: 0, blue: 0.5)).buttonStyle(.bordered)
+                        .alert("Bruger Oprettet", isPresented: $isCreated) {
                             
                             Text("Bruger oprettet")
                         }.alert("Fejl  ", isPresented: $isfaliure) {
@@ -55,8 +55,8 @@ struct UserView: View {
                     
                     Button(action: cancel) {
                         Text("Cancel")
-                    }.padding()
-                        .background(Color(red: 0.9, green: 0, blue: 0))
+                    }
+                        .background(Color(red: 0.9, green: 0, blue: 0)).foregroundColor(.white).buttonStyle(.bordered)
     
                 }
             }.padding(1)

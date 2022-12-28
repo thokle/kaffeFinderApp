@@ -30,13 +30,13 @@ struct GrooceryView: View {
                 vm.source = .camera
                 vm.showPhotoPicker()
             } label: {
-                Text("Camera")
+                Image(systemName: "camera")
             }.buttonStyle(.bordered)
             Button {
                 vm.source = .library
                 vm.showPhotoPicker()
             } label: {
-                Text("Photoalbum")
+               Image(systemName: "photo")
             }.buttonStyle(.bordered)
             Button {
                 addGrooveToSalePlace()

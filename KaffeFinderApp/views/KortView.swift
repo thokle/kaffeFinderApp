@@ -78,7 +78,7 @@ struct KortView: View {
             setCurrentLocation()
             setSalePlaceAnnotations()
            
-        }.background(Color(.blue))
+        }
     }
 }
 

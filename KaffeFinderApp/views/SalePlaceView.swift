@@ -55,13 +55,13 @@ struct SalePlaceView: View {
                     vm.source = .camera
                     vm.showPhotoPicker()
                 } label: {
-                    Text("Camera").font(.caption)
+                   Image(systemName: "camera")
                 }.buttonStyle(.bordered)
                 Button {
                     vm.source = .library
                     vm.showPhotoPicker()
                 } label: {
-                    Text("Photoalbum").font(.caption)
+                    Image(systemName: "photo")
                 }.buttonStyle(.bordered)
                 Button(action: createSalePlace) {
                     Text("Add salePlace").font(.caption)

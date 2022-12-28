@@ -37,28 +37,42 @@ struct SalePlacDetailsView: View {
 
             
             HStack {
-                Button(action: openGrooceryList) {
-                    Text("Show Grooceries")
-                }.sheet(isPresented: $showGroocery) {
-                    GrooceryListView(saelPlaceId: salePlace.id ?? 0)
-                }.buttonStyle(.bordered).padding()
-                Button(action: addGroocery) {
-                    Text("Add Groocery")
-                    
-                }.sheet(isPresented: $addDetails) {
-                    GrooceryView(salePlaceID:  String( salePlace.id ?? 0 ))
-                    
-                }.buttonStyle(.bordered).frame(width: 150, height: 30)
+                VStack(alignment: .center){
+                    Button(action: openGrooceryList) {
+                        Image( "list").resizable().frame(width: 20, height: 20)
+                    }.sheet(isPresented: $showGroocery) {
+                        GrooceryListView(saelPlaceId: salePlace.id ?? 0)
+                    }.buttonStyle(.bordered)
+                    Text("List Groocries").font(.system(size: 7))
+                }
                 
-            }
-            HStack {
-                Button("Open shop") {
-                    open(id: salePlace.id ?? 0)
-                }.buttonStyle(.bordered).frame(width: 150,height: 30)
-                
-                Button("Close shop") {
-                    close(id: salePlace.id ?? 0)
-                }.buttonStyle(.bordered).frame(width: 150, height: 30)
+                VStack(alignment: .center) {
+                    Button(action: addGroocery) {
+                        Image("add").resizable().frame(width: 20, height: 20)
+                        
+                    }.sheet(isPresented: $addDetails) {
+                        GrooceryView(salePlaceID:  String( salePlace.id ?? 0 ))
+                        
+                    }.buttonStyle(.bordered)
+                    Text("Add Groocery").font(.system(size: 7))
+                }
+                VStack(alignment: .center) {
+                    Button(action: open) {
+                        Image("open-sign").resizable().frame(width: 20, height: 20)
+                    }.buttonStyle(.bordered).alert("Shop Is Open", isPresented: $shopIsOpen) {
+                        
+                    }
+                    Text("Open Shop").font(.system(size: 7))
+                }
+                VStack(alignment: .center) {
+                    Button(action: close){
+                        Image("shop-close-clipart.png").resizable().frame(width: 20, height: 20)
+                    }.buttonStyle(.bordered).alert("Shop is closed", isPresented: $shopIsClosed) {
+                        
+                    }
+                    Text("Close Shop").font(.system(size: 7))
+                    
+                }
             }
         }
         
@@ -84,8 +98,8 @@ extension SalePlacDetailsView {
         self.addDetails.toggle()
     }
     
-    func close(id: Int) {
-        self.netWork.closeShop(id: id) {
+    func close() {
+        self.netWork.closeShop(id: salePlace.id!) {
             res in
             switch res {
             case .success(let success):
@@ -97,11 +111,11 @@ extension SalePlacDetailsView {
         }
     }
     
-    func open(id: Int) {
+    func open() {
         salePlace.lat = Double(userLatitude)
         salePlace.lng = Double(userLongitude)
         salePlace.isClosed = false
-        self.netWork.openShop(id: id, salePlace: salePlace) {
+        self.netWork.openShop(id: salePlace.id!, salePlace: salePlace) {
             (res) in
             switch res {
             case .success(let success):
