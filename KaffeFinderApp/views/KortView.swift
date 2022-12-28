@@ -17,30 +17,7 @@ struct KortView: View {
     
     @State var annotations: [SaleCoordinates]?
 
-    private func setCurrentLocation() {
-        locationManager.$location.sink {
-            res in
-            region.center.longitude =  res?.coordinate.longitude ?? 0
-            region.center.latitude = res?.coordinate.latitude ?? 0
-            region.span.latitudeDelta =  5
-            region.span.longitudeDelta = 5
-            print("view \(res?.coordinate.latitude) \(res?.coordinate.longitude)")
-        }
-    }
     
-    private func setSalePlaceAnnotations() {
-        kafkaService.reciveMessages { res in
-            
-            switch res {
-            case .success(let success):
-                self.annotations =  kafkaService.convertAndSend(salePlaces: success)
-            
-            case .failure(let error):
-                print(error.localizedDescription)
-            }
-        }
-        
-        }
     
     
     
@@ -86,6 +63,37 @@ struct KortView_Previews: PreviewProvider {
     static var previews: some View {
         KortView()
     }
+}
+
+extension KortView {
+    private func setCurrentLocation() {
+        DispatchQueue.main.async {
+            locationManager.$location.sink {
+                res in
+                region.center.longitude =  res?.coordinate.longitude ?? 0
+                region.center.latitude = res?.coordinate.latitude ?? 0
+                region.span.latitudeDelta =  5
+                region.span.longitudeDelta = 5
+                print("view \(res?.coordinate.latitude) \(res?.coordinate.longitude)")
+            }
+        }
+      
+    }
+    
+    private func setSalePlaceAnnotations() {
+        kafkaService.reciveMessages { res in
+            
+            switch res {
+            case .success(let success):
+                self.annotations =  kafkaService.convertAndSend(salePlaces: success)
+            
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+        
+        }
+    
 }
 
 

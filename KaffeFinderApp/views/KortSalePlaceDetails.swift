@@ -34,12 +34,12 @@ struct KortSalePlaceDetails: View {
                     .frame(minWidth: 0, maxWidth: .infinity)
                 Button(action: viewSalePlace) {
                     Label("show", systemImage: "house.fill")
-                }
-            }
-                }.onAppear(perform: getGrooceriesForSalePlace).sheet(isPresented: $showGrooceries) {
+                }.sheet(isPresented: $showGrooceries) {
                     List(list, id: \.id){
                         GrooceriesDetailsView(groocery: $0, admin: false)
                 }
+            }
+                }.onAppear(perform: getGrooceriesForSalePlace)
             }
         }
     }
