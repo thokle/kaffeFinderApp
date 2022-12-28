@@ -17,30 +17,45 @@ struct KortSalePlaceDetails: View {
 
     @State var showSalePlace: Bool = false
     @State var pitcure:String?
+ 
     @State var list:[Groocery] = [Groocery]()
     var body: some View {
         HStack {
             Button(action: viewSalePlace) {
                 Label("show", systemImage: "house")
-            }
-           
-        }.sheet(isPresented: $showSalePlace) {
-            VStack {
-                Text(type ?? "")
-                Text(name ?? "")
-                Image(uiImage: getImage(groovery: pitcure ?? BaseImage().getBaseImage()))
-                    .resizable()
-                    .scaledToFit()
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                Button(action: viewSalePlace) {
-                    Label("show", systemImage: "house.fill")
-                }.sheet(isPresented: $showGrooceries) {
-                    List(list, id: \.id){
-                        GrooceriesDetailsView(groocery: $0, admin: false)
+            }.sheet(isPresented: $showSalePlace) {
+                HStack(alignment: .top) {
+                    Button(action: closeSheet) {
+                        Image(systemName: "xmark")
+                    }
+                }
+                VStack {
+                  
+                    Text(type ?? "")
+                    Text(name ?? "")
+                    Image(uiImage: getImage(groovery: pitcure ?? BaseImage().getBaseImage()))
+                        .resizable()
+                        .scaledToFit()
+                        .frame(minWidth: 0, maxWidth: .infinity)
+                  
+                    Button(action: show) {
+                        Label("show", systemImage: "house.fill")
+                    }
+                    VStack {
+                        if showGrooceries {
+                            List(list, id: \.id){
+                                GrooceriesDetailsView(groocery: $0, admin: false)
+                            }
+                            
+                            Button(action: closeGrooceries) {
+                                Label("close", systemImage: "window")
+                            }
+                        }
+                    }
+                    }.onAppear(perform: getGrooceriesForSalePlace)
                 }
             }
-                }.onAppear(perform: getGrooceriesForSalePlace)
-            }
+           
         }
     }
 
@@ -53,17 +68,22 @@ struct KortSalePlaceDetails_Previews: PreviewProvider {
 
 extension KortSalePlaceDetails {
     
+    func closeSheet() {
+        showSalePlace = false
+    }
     
     func getImage(groovery: String) -> UIImage {
         
         guard let imageData =  Data(base64Encoded: groovery ) else {
             return UIImage(named: "")!
         }
-        
         return UIImage(data:imageData)!
-        
-        
     }
+    
+    func closeGrooceries() {
+        showGrooceries = false
+    }
+    
     
     func viewSalePlace() {
         showSalePlace = true

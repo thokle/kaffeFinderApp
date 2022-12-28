@@ -20,7 +20,7 @@ struct GrooceryView: View {
         
       
         VStack(alignment: .trailing) {
-   
+            Text(salePlaceID).font(.headline)
             TextField("Name", text: $name).backgroundStyle(.gray)
             TextField("Type", text: $type).backgroundStyle(.gray)
             TextField("Price", text: $price).backgroundStyle(.gray)
@@ -93,7 +93,7 @@ extension GrooceryView {
     func addGrooveToSalePlace() {
         var salePlaceGroovery: SalePlaceGroocery = SalePlaceGroocery()
         var salePlace = SalePlace()
-        salePlace.id = Int(salePlaceID)
+        salePlace.id = Int()
         salePlaceGroovery.salePlace = salePlace
         salePlaceGroovery.salePlace?.id = Int(salePlaceID)
         var groocery = Groocery()
