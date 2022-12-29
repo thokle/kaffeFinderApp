@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7288221295D998100F7AD5D /* views in Resources */ = {isa = PBXBuildFile; fileRef = F7288213295D998000F7AD5D /* views */; };
+		F7288222295D998100F7AD5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7288214295D998000F7AD5D /* ContentView.swift */; };
+		F7288223295D998100F7AD5D /* Coordinators in Resources */ = {isa = PBXBuildFile; fileRef = F7288215295D998000F7AD5D /* Coordinators */; };
+		F7288224295D998100F7AD5D /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = F7288216295D998000F7AD5D /* Preview Content */; };
+		F7288225295D998100F7AD5D /* services in Resources */ = {isa = PBXBuildFile; fileRef = F7288217295D998000F7AD5D /* services */; };
+		F7288226295D998100F7AD5D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7288218295D998000F7AD5D /* Persistence.swift */; };
+		F7288227295D998100F7AD5D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7288219295D998000F7AD5D /* Info.plist */; };
+		F7288228295D998100F7AD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F728821A295D998000F7AD5D /* Assets.xcassets */; };
+		F7288229295D998100F7AD5D /* KaffeFinderApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F728821B295D998000F7AD5D /* KaffeFinderApp.xcdatamodeld */; };
+		F728822A295D998100F7AD5D /* KaffeFinderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728821C295D998000F7AD5D /* KaffeFinderAppApp.swift */; };
+		F728822B295D998100F7AD5D /* Managers in Resources */ = {isa = PBXBuildFile; fileRef = F728821D295D998000F7AD5D /* Managers */; };
+		F728822C295D998100F7AD5D /* MKCoordinatRegion+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F728821E295D998000F7AD5D /* MKCoordinatRegion+Extension.swift */; };
+		F728822D295D998100F7AD5D /* observable in Resources */ = {isa = PBXBuildFile; fileRef = F728821F295D998000F7AD5D /* observable */; };
+		F728822E295D998100F7AD5D /* models in Resources */ = {isa = PBXBuildFile; fileRef = F7288220295D998000F7AD5D /* models */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F71CC4B6290078D200755BA2 /* Find Food & Drinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find Food & Drinks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7288213295D998000F7AD5D /* views */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = views; path = "Find Food & Drinks/views"; sourceTree = SOURCE_ROOT; };
+		F7288214295D998000F7AD5D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Find Food & Drinks/ContentView.swift"; sourceTree = SOURCE_ROOT; };
+		F7288215295D998000F7AD5D /* Coordinators */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Coordinators; path = "Find Food & Drinks/Coordinators"; sourceTree = SOURCE_ROOT; };
+		F7288216295D998000F7AD5D /* Preview Content */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Preview Content"; path = "Find Food & Drinks/Preview Content"; sourceTree = SOURCE_ROOT; };
+		F7288217295D998000F7AD5D /* services */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = services; path = "Find Food & Drinks/services"; sourceTree = SOURCE_ROOT; };
+		F7288218295D998000F7AD5D /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = "Find Food & Drinks/Persistence.swift"; sourceTree = SOURCE_ROOT; };
+		F7288219295D998000F7AD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "Find Food & Drinks/Info.plist"; sourceTree = SOURCE_ROOT; };
+		F728821A295D998000F7AD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Find Food & Drinks/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		F728821C295D998000F7AD5D /* KaffeFinderAppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KaffeFinderAppApp.swift; path = "Find Food & Drinks/KaffeFinderAppApp.swift"; sourceTree = SOURCE_ROOT; };
+		F728821D295D998000F7AD5D /* Managers */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Managers; path = "Find Food & Drinks/Managers"; sourceTree = SOURCE_ROOT; };
+		F728821E295D998000F7AD5D /* MKCoordinatRegion+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MKCoordinatRegion+Extension.swift"; path = "Find Food & Drinks/MKCoordinatRegion+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		F728821F295D998000F7AD5D /* observable */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = observable; path = "Find Food & Drinks/observable"; sourceTree = SOURCE_ROOT; };
+		F7288220295D998000F7AD5D /* models */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = models; path = "Find Food & Drinks/models"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F71CC4B3290078D200755BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F71CC4AD290078D200755BA2 = {
+			isa = PBXGroup;
+			children = (
+				F71CC4B8290078D200755BA2 /* Find Food and Drinks */,
+				F71CC4B7290078D200755BA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F71CC4B7290078D200755BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71CC4B6290078D200755BA2 /* Find Food & Drinks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F71CC4B8290078D200755BA2 /* Find Food and Drinks */ = {
+			isa = PBXGroup;
+			children = (
+				F728821A295D998000F7AD5D /* Assets.xcassets */,
+				F7288214295D998000F7AD5D /* ContentView.swift */,
+				F7288215295D998000F7AD5D /* Coordinators */,
+				F7288219295D998000F7AD5D /* Info.plist */,
+				F728821B295D998000F7AD5D /* KaffeFinderApp.xcdatamodeld */,
+				F728821C295D998000F7AD5D /* KaffeFinderAppApp.swift */,
+				F728821D295D998000F7AD5D /* Managers */,
+				F728821E295D998000F7AD5D /* MKCoordinatRegion+Extension.swift */,
+				F7288220295D998000F7AD5D /* models */,
+				F728821F295D998000F7AD5D /* observable */,
+				F7288218295D998000F7AD5D /* Persistence.swift */,
+				F7288216295D998000F7AD5D /* Preview Content */,
+				F7288217295D998000F7AD5D /* services */,
+				F7288213295D998000F7AD5D /* views */,
+			);
+			path = "Find Food and Drinks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F71CC4B5290078D200755BA2 /* Find Food & Drinks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71CC4E0290078D500755BA2 /* Build configuration list for PBXNativeTarget "Find Food & Drinks" */;
+			buildPhases = (
+				F71CC4B2290078D200755BA2 /* Sources */,
+				F71CC4B3290078D200755BA2 /* Frameworks */,
+				F71CC4B4290078D200755BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find Food & Drinks";
+			productName = KaffeFinderApp;
+			productReference = F71CC4B6290078D200755BA2 /* Find Food & Drinks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F71CC4AE290078D200755BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F71CC4B5290078D200755BA2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F71CC4B1290078D200755BA2 /* Build configuration list for PBXProject "Find Food & Drinks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F71CC4AD290078D200755BA2;
+			productRefGroup = F71CC4B7290078D200755BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F71CC4B5290078D200755BA2 /* Find Food & Drinks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F71CC4B4290078D200755BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7288221295D998100F7AD5D /* views in Resources */,
+				F728822E295D998100F7AD5D /* models in Resources */,
+				F7288224295D998100F7AD5D /* Preview Content in Resources */,
+				F7288225295D998100F7AD5D /* services in Resources */,
+				F728822B295D998100F7AD5D /* Managers in Resources */,
+				F7288223295D998100F7AD5D /* Coordinators in Resources */,
+				F7288228295D998100F7AD5D /* Assets.xcassets in Resources */,
+				F7288227295D998100F7AD5D /* Info.plist in Resources */,
+				F728822D295D998100F7AD5D /* observable in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F71CC4B2290078D200755BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7288222295D998100F7AD5D /* ContentView.swift in Sources */,
+				F7288229295D998100F7AD5D /* KaffeFinderApp.xcdatamodeld in Sources */,
+				F7288226295D998100F7AD5D /* Persistence.swift in Sources */,
+				F728822C295D998100F7AD5D /* MKCoordinatRegion+Extension.swift in Sources */,
+				F728822A295D998100F7AD5D /* KaffeFinderAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F71CC4DE290078D500755BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F71CC4DF290078D500755BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F71CC4E1290078D500755BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Find Food and Drinks/Preview Content\"";
+				DEVELOPMENT_TEAM = SNXVLJS2UW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Find Food and Drinks/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses camera to enhance experince";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app uses location when in use";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kleistit.findfoodanddrinks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F71CC4E2290078D500755BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Find Food and Drinks/Preview Content\"";
+				DEVELOPMENT_TEAM = SNXVLJS2UW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Find Food and Drinks/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses camera to enhance experince";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app uses location when in use";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kleistit.findfoodanddrinks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F71CC4B1290078D200755BA2 /* Build configuration list for PBXProject "Find Food & Drinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CC4DE290078D500755BA2 /* Debug */,
+				F71CC4DF290078D500755BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71CC4E0290078D500755BA2 /* Build configuration list for PBXNativeTarget "Find Food & Drinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CC4E1290078D500755BA2 /* Debug */,
+				F71CC4E2290078D500755BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F728821B295D998000F7AD5D /* KaffeFinderApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+			);
+			name = KaffeFinderApp.xcdatamodeld;
+			path = "../Find Food & Drinks/KaffeFinderApp.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F71CC4AE290078D200755BA2 /* Project object */;
+}

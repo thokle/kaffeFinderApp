@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "22656238-F0A2-42AC-80E8-461C1FED699F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8407F22D-8692-4693-827E-306BC77AF14B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/SalePlaceView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "createSalePlace()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "369FDF57-DED9-4ADE-B881-3BBEBBE9A0B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/SalePlaceView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "createSalePlace()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9E3BD24-A97F-4D96-9383-D6442C6F3EE1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "324"
+            endingLineNumber = "324"
+            landmarkName = "openShop(id:salePlace:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9E3BD24-A97F-4D96-9383-D6442C6F3EE1 - 57ebe819d96af1a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.NetWorkService.openShop(id: Swift.Int, salePlace: KaffeFinderApp.SalePlace, completion: (Swift.Result&lt;KaffeFinderApp.SalePlace, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/NetWorkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "325"
+                  endingLineNumber = "325"
+                  offsetFromSymbolStart = "1408">
+               </Location>
+               <Location
+                  uuid = "D9E3BD24-A97F-4D96-9383-D6442C6F3EE1 - 34cc3440dffd2b56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KaffeFinderApp.NetWorkService.openShop(id: Swift.Int, salePlace: KaffeFinderApp.SalePlace, completion: (Swift.Result&lt;KaffeFinderApp.SalePlace, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/NetWorkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "328"
+                  endingLineNumber = "328"
+                  offsetFromSymbolStart = "344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3614B3A2-72D6-459C-9574-12FF61374D9E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "330"
+            endingLineNumber = "330"
+            landmarkName = "openShop(id:salePlace:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D035146-3B7B-41E0-BCC5-F1983982435C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "340"
+            endingLineNumber = "340"
+            landmarkName = "openShop(id:salePlace:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "990C1742-6D1F-444C-8E88-092C89F21E4F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/SalePlacDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "SalePlacDetailsView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "990C1742-6D1F-444C-8E88-092C89F21E4F - 1c965a041f780c8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of KaffeFinderApp.SalePlacDetailsView.location : KaffeFinderApp.LocationManager"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/SalePlacDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "38">
+               </Location>
+               <Location
+                  uuid = "990C1742-6D1F-444C-8E88-092C89F21E4F - 434bf7ddc6bf3bc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.SalePlacDetailsView.location.getter : KaffeFinderApp.LocationManager"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/SalePlacDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "990C1742-6D1F-444C-8E88-092C89F21E4F - a05182e374ae0f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.SalePlacDetailsView.$location.getter : SwiftUI.ObservedObject&lt;KaffeFinderApp.LocationManager&gt;.Wrapper"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/SalePlacDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "114">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA1C5C33-9EF9-490F-A27F-D79B8BA69306"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/SalePlacDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "open()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACEDC61F-FFDC-413E-82A7-12AE01868928"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/SalePlacDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "open()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEC1BF5A-3DAD-43B0-BA9D-291BF9D0A076"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/KortView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "KortView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "EEC1BF5A-3DAD-43B0-BA9D-291BF9D0A076 - afcffa4a28b273a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of KaffeFinderApp.KortView.kafkaService : KaffeFinderApp.KafkaService"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/KortView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "EEC1BF5A-3DAD-43B0-BA9D-291BF9D0A076 - b4e057c3cd265c0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.KortView.kafkaService.getter : KaffeFinderApp.KafkaService"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/KortView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "EEC1BF5A-3DAD-43B0-BA9D-291BF9D0A076 - 15c7eac13e089813"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.KortView.kafkaService.setter : KaffeFinderApp.KafkaService"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/KortView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "78">
+               </Location>
+               <Location
+                  uuid = "EEC1BF5A-3DAD-43B0-BA9D-291BF9D0A076 - d7259f56a5b6830c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.KortView.kafkaService.modify : KaffeFinderApp.KafkaService"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/KortView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "EEC1BF5A-3DAD-43B0-BA9D-291BF9D0A076 - 1ef2777f3ff1ce00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.KortView.kafkaService.modify : KaffeFinderApp.KafkaService with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/KortView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "EEC1BF5A-3DAD-43B0-BA9D-291BF9D0A076 - c5a337cbf8ac60b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.KortView.$kafkaService.getter : SwiftUI.ObservedObject&lt;KaffeFinderApp.KafkaService&gt;.Wrapper"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/KortView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "91">
+               </Location>
+               <Location
+                  uuid = "EEC1BF5A-3DAD-43B0-BA9D-291BF9D0A076 - 911d4ba3d871ecf1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.KortView.init() -&gt; KaffeFinderApp.KortView"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/KortView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "154">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D600E109-7D95-4A50-B5A7-FD2899B0A051"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/KafkaService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "convertAndSend(salePlaces:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09646FA2-AF4B-4E22-8AF7-C31C50C90D0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/KafkaService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "reciveMessages(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F81A646A-A4C5-4953-BA59-8C0A971E23A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/KortView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11D3EFBE-DADA-4FC3-A56F-29351747FAC3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/KafkaService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "convertAndSend(salePlaces:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E445DE70-3C87-4CAC-938D-AD51A261A387"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/KafkaService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "convertAndSend(salePlaces:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA670D2D-3F33-4A2C-AB09-BD24009FB0AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/KafkaService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "reciveMessages(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FCD30D4-5328-4E97-B457-04B557DBFCA3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/KafkaService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "reciveMessages(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1FCD30D4-5328-4E97-B457-04B557DBFCA3 - 45451ddd58b294dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KaffeFinderApp.KafkaService.reciveMessages(completion: (Swift.Result&lt;Swift.Array&lt;KaffeFinderApp.SalePlace&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/KafkaService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "1FCD30D4-5328-4E97-B457-04B557DBFCA3 - ede201b7b4c74e58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KaffeFinderApp.KafkaService.reciveMessages(completion: (Swift.Result&lt;Swift.Array&lt;KaffeFinderApp.SalePlace&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/KafkaService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1454DD63-D7F3-4216-9B34-E822E0994A9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/KafkaService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "reciveMessages(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1454DD63-D7F3-4216-9B34-E822E0994A9F - e9af7eb6f50ea5ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 @Sendable (__C.NSTimer) -&gt; () in KaffeFinderApp.KafkaService.reciveMessages() -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/KafkaService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "998">
+               </Location>
+               <Location
+                  uuid = "1454DD63-D7F3-4216-9B34-E822E0994A9F - 87e406bfd49b746"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 @Sendable (__C.NSTimer) -&gt; () in KaffeFinderApp.KafkaService.reciveMessages() -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/KafkaService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A62E0F3C-D23C-42F0-9898-26F645E893BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/KafkaService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "reciveMessages(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4F3C60E-2977-4004-BC3A-8D02B7247995"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/KafkaService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "reciveMessages(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4F3C60E-2977-4004-BC3A-8D02B7247995 - e9af7eb6f50ea490"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 @Sendable (__C.NSTimer) -&gt; () in KaffeFinderApp.KafkaService.reciveMessages() -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/KafkaService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "365">
+               </Location>
+               <Location
+                  uuid = "A4F3C60E-2977-4004-BC3A-8D02B7247995 - e9af7eb6f50ea490"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 @Sendable (__C.NSTimer) -&gt; () in KaffeFinderApp.KafkaService.reciveMessages() -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/KafkaService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4B26332-F0EB-4C89-82EA-42D0DD644962"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/KafkaService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "reciveMessages(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC9A16A5-4FF3-42D1-8B7B-0454DD981AE7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/KortView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BAD0041-BF20-4006-941A-915D8F2DDC78"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/Managers/LocationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4578740B-4842-4F27-8469-A1763D668431"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/Managers/LocationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98A2E995-0856-4F11-B842-64F731CE442F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/SalePlacDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "open()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "98A2E995-0856-4F11-B842-64F731CE442F - e924ad4ee036b8ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.SalePlacDetailsView.open(id: Swift.Int) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/SalePlacDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "377">
+               </Location>
+               <Location
+                  uuid = "98A2E995-0856-4F11-B842-64F731CE442F - cf03fdcb65b7e957"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;KaffeFinderApp.SalePlace, Swift.Error&gt;) -&gt; () in KaffeFinderApp.SalePlacDetailsView.open(id: Swift.Int) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/SalePlacDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C3AD9A7-4333-4096-8510-CC6916D405CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/SalePlacDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "open()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "577D2FD8-D6E0-4287-9A4E-4A8BF885B05E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/KortView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47A8B2A1-CDCF-4761-8D0F-19AC7B3613AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceryView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "GrooceryView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "47A8B2A1-CDCF-4761-8D0F-19AC7B3613AF - 377a2d8cbc7f3793"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.GrooceryView.vm.getter : KaffeFinderApp.ViewModel"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/GrooceryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  uuid = "47A8B2A1-CDCF-4761-8D0F-19AC7B3613AF - 377665c98a998129"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.GrooceryView.$vm.getter : SwiftUI.EnvironmentObject&lt;KaffeFinderApp.ViewModel&gt;.Wrapper"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/GrooceryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F38598A3-B950-4C64-A2E5-92C81BE9A50D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/SalePlacDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "426DEE4D-AC66-4150-B962-5BE1041C0F4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceryView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2306641-0D64-463C-94E0-C869C5E7435B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceryView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "GrooceryView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "F2306641-0D64-463C-94E0-C869C5E7435B - 88aa55b350093d97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of KaffeFinderApp.GrooceryView.grooceyIsAddded : Swift.Bool"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/GrooceryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "F2306641-0D64-463C-94E0-C869C5E7435B - bdd69b5df0176a0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.GrooceryView.grooceyIsAddded.getter : Swift.Bool"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/GrooceryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "101">
+               </Location>
+               <Location
+                  uuid = "F2306641-0D64-463C-94E0-C869C5E7435B - 4c4bffc5497a0271"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.GrooceryView.grooceyIsAddded.setter : Swift.Bool"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/GrooceryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "F2306641-0D64-463C-94E0-C869C5E7435B - 21178d6cd3b70400"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.GrooceryView.grooceyIsAddded.modify : Swift.Bool"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/GrooceryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "F2306641-0D64-463C-94E0-C869C5E7435B - c78613915d63615a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.GrooceryView.grooceyIsAddded.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/GrooceryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "F2306641-0D64-463C-94E0-C869C5E7435B - 5aecb63a48b56549"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.GrooceryView.$grooceyIsAddded.getter : SwiftUI.Binding&lt;Swift.Bool&gt;"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/GrooceryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "126">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6A6A1A0-F377-44CC-BBE1-1B30CC7B51B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "logion(username:password:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "089E784C-B7FF-4908-9C79-85A7856D4AA7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "logion(username:password:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7405ACD-0129-41CE-99D4-162D7C020138"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "addGroocery(groocery:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF1D62E0-60F7-4E20-A1E6-9FF2FC7310BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "addGroocery(groocery:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15A0AA5D-EB53-4761-A848-3DC47246243A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "addGroocery(groocery:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "15A0AA5D-EB53-4761-A848-3DC47246243A - 5e672ade9e362b7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.NetWorkService.addGroocery(groocery: KaffeFinderApp.SalePlaceGroocery, completion: (Swift.Result&lt;Swift.Optional&lt;KaffeFinderApp.Groocery&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/NetWorkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "15A0AA5D-EB53-4761-A848-3DC47246243A - 5e672ade9e362b7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.NetWorkService.addGroocery(groocery: KaffeFinderApp.SalePlaceGroocery, completion: (Swift.Result&lt;Swift.Optional&lt;KaffeFinderApp.Groocery&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/NetWorkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "968">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C70E3047-3742-4D21-91BC-EC56515AE99B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "383"
+            endingLineNumber = "383"
+            landmarkName = "getGrooceryBySalePlace(salePlace:completiom:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C70E3047-3742-4D21-91BC-EC56515AE99B - 7b06764f1af6536a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.NetWorkService.getGrooceryBySalePlace(salePlace: Swift.Int, completiom: (Swift.Result&lt;Swift.Array&lt;KaffeFinderApp.Groocery&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/NetWorkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "383"
+                  endingLineNumber = "383"
+                  offsetFromSymbolStart = "334">
+               </Location>
+               <Location
+                  uuid = "C70E3047-3742-4D21-91BC-EC56515AE99B - 7b06764f1af6536a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.NetWorkService.getGrooceryBySalePlace(salePlace: Swift.Int, completiom: (Swift.Result&lt;Swift.Array&lt;KaffeFinderApp.Groocery&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/NetWorkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "383"
+                  endingLineNumber = "383"
+                  offsetFromSymbolStart = "932">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AA0426F-C36A-4625-8A2B-C91D2DF7DA3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "397"
+            endingLineNumber = "397"
+            landmarkName = "getGrooceryBySalePlace(salePlace:completiom:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4AA0426F-C36A-4625-8A2B-C91D2DF7DA3B - 1b16c980242d2cdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KaffeFinderApp.NetWorkService.getGrooceryBySalePlace(salePlace: Swift.Int, completiom: (Swift.Result&lt;Swift.Array&lt;KaffeFinderApp.Groocery&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/NetWorkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "397"
+                  endingLineNumber = "397"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "4AA0426F-C36A-4625-8A2B-C91D2DF7DA3B - 7736de2b654971da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KaffeFinderApp.NetWorkService.getGrooceryBySalePlace(salePlace: Swift.Int, completiom: (Swift.Result&lt;Swift.Array&lt;KaffeFinderApp.Groocery&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/NetWorkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "397"
+                  endingLineNumber = "397"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4408939B-4295-4F2E-AE14-57A593956568"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "383"
+            endingLineNumber = "383"
+            landmarkName = "getGrooceryBySalePlace(salePlace:completiom:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4408939B-4295-4F2E-AE14-57A593956568 - 7b06764f1af6536a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.NetWorkService.getGrooceryBySalePlace(salePlace: Swift.Int, completiom: (Swift.Result&lt;Swift.Array&lt;KaffeFinderApp.Groocery&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/NetWorkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "383"
+                  endingLineNumber = "383"
+                  offsetFromSymbolStart = "334">
+               </Location>
+               <Location
+                  uuid = "4408939B-4295-4F2E-AE14-57A593956568 - 7b06764f1af6536a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.NetWorkService.getGrooceryBySalePlace(salePlace: Swift.Int, completiom: (Swift.Result&lt;Swift.Array&lt;KaffeFinderApp.Groocery&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/NetWorkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "383"
+                  endingLineNumber = "383"
+                  offsetFromSymbolStart = "932">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4516FD4-25B4-47DC-AD8F-BB376FDC88BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceriesDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC3194ED-3D63-4112-8126-D34E72C1C267"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceriesDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1C5ABB5-1424-4DEE-91C6-A78BF93FDCF6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceryListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "617155BD-D50D-4DFB-9975-0378B91E1F31"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceryListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "617155BD-D50D-4DFB-9975-0378B91E1F31 - ec86a75307da167"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.GrooceryListView.body.getter : some"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/GrooceryListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "193">
+               </Location>
+               <Location
+                  uuid = "617155BD-D50D-4DFB-9975-0378B91E1F31 - 1e91f21f70701e6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (KaffeFinderApp.Groocery) -&gt; KaffeFinderApp.GrooceriesDetailsView in KaffeFinderApp.GrooceryListView.body.getter : some"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/GrooceryListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "170">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90B8BB02-2518-4361-8EC9-DF652780BE4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceriesDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getImage(groovery:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA4000BA-DEED-4225-AA7D-6A862B2D3405"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceriesDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getImage(groovery:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "172F03CC-3A48-4A3C-A825-D28398AE6ECB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceriesDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DA66797-B695-4085-A56E-071D1EE46217"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceriesDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getImage(groovery:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E56542C-9075-4AF7-AABD-9CAD3EA879B6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/KortView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B8F8719-EB49-4973-84DC-F0062185AD09"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "339"
+            endingLineNumber = "339"
+            landmarkName = "openShop(id:salePlace:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B8F8719-EB49-4973-84DC-F0062185AD09 - 34cc3440dffd28c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KaffeFinderApp.NetWorkService.openShop(id: Swift.Int, salePlace: KaffeFinderApp.SalePlace, completion: (Swift.Result&lt;KaffeFinderApp.SalePlace, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/NetWorkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "339"
+                  endingLineNumber = "339"
+                  offsetFromSymbolStart = "1536">
+               </Location>
+               <Location
+                  uuid = "5B8F8719-EB49-4973-84DC-F0062185AD09 - 34cc3440dffd28c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KaffeFinderApp.NetWorkService.openShop(id: Swift.Int, salePlace: KaffeFinderApp.SalePlace, completion: (Swift.Result&lt;KaffeFinderApp.SalePlace, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/services/NetWorkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "339"
+                  endingLineNumber = "339"
+                  offsetFromSymbolStart = "2000">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E75D5F2-79F0-4D51-83BF-13984785F6A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/SalePlaceView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "createSalePlace()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E75D5F2-79F0-4D51-83BF-13984785F6A1 - e1301f1433fb7d1c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KaffeFinderApp.SalePlaceView.createSalePlace() -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/SalePlaceView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "6E75D5F2-79F0-4D51-83BF-13984785F6A1 - f382282f05744347"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;KaffeFinderApp.SalePlace, Swift.Error&gt;) -&gt; () in KaffeFinderApp.SalePlaceView.createSalePlace() -&gt; ()"
+                  moduleName = "KaffeFinderApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomaskleist/XCodeProjects/KaffeFinderApp/KaffeFinderApp/views/SalePlaceView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C85D65DE-88E0-481C-A303-D22E87DBC4DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceryView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "addGrooveToSalePlace()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46A0F2B3-E3A6-4B18-8BEF-54B44C039FDD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "addGroocery(groocery:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F91DCA9C-86DA-4E08-AB8A-E27110A41225"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/services/NetWorkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "addGroocery(groocery:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76A398E3-E001-4124-8612-09A288AF7C95"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaffeFinderApp/views/GrooceryView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "addGrooveToSalePlace()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
