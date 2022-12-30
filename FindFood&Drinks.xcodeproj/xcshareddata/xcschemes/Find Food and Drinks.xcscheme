@@ -7,17 +7,17 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "YES"
+            buildForTesting = "NO"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
+            buildForProfiling = "NO"
             buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F71CC4B5290078D200755BA2"
-               BuildableName = "Find Food &amp; Drinks.app"
-               BlueprintName = "Find Food &amp; Drinks"
-               ReferencedContainer = "container:Find Food &amp; Drinks.xcodeproj">
+               BuildableName = "FindFood&amp;Drinks.app"
+               BlueprintName = "FindFood&amp;Drinks"
+               ReferencedContainer = "container:FindFood&amp;Drinks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,16 +40,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F71CC4B5290078D200755BA2"
-            BuildableName = "Find Food &amp; Drinks.app"
-            BlueprintName = "Find Food &amp; Drinks"
-            ReferencedContainer = "container:Find Food &amp; Drinks.xcodeproj">
+            BuildableName = "FindFood&amp;Drinks.app"
+            BlueprintName = "FindFood&amp;Drinks"
+            ReferencedContainer = "container:FindFood&amp;Drinks.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <LocationScenarioReference
          identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
          referenceType = "1">
@@ -61,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F71CC4B5290078D200755BA2"
-            BuildableName = "Find Food &amp; Drinks.app"
-            BlueprintName = "Find Food &amp; Drinks"
-            ReferencedContainer = "container:Find Food &amp; Drinks.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
